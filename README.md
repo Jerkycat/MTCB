@@ -1,4 +1,5 @@
 # Tradução Comunitária Brasileira
+![banner.png](.metadata/thumbnail.png)
 
 O mod de tradução comunitário brasileiro busca facilitar a experiência dos jogadores lusófonos de victoria 3, consolidando todas as traduções num mod fácilmente acessível.
 Inclui-se como uma DLC, para que usuário saiba facilmente se está funcionando ou não.
