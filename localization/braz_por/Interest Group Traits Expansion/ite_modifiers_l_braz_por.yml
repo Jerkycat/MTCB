@@ -1,0 +1,10 @@
+﻿l_braz_por:
+
+ state_radicals_from_sol_change_mult:0 "$concept_radicals$ de mudanças de [concept_sol]"
+ state_radicals_from_sol_change_mult_desc:0 "Um bônus ou penalidade para quantos [Concept('concept_pop', '$concept_pops$')] se tornarão [concept_radical] de mudanças em [concept_sol]"
+
+ state_loyalists_from_sol_change_mult:0 "$concept_loyalists$ de mudanças de [concept_sol]"
+ state_loyalists_from_sol_change_mult_desc:0 "Um bônus ou penalidade para quantos [Concept('concept_pop', '$concept_pops$')] se tornarão [concept_loyalist] de mudanças em [concept_sol]"
+ 
+ state_farmers_education_access_add: "Acesso à Educação para [GetPopType('farmers').GetName]"
+ state_farmers_education_access_add_desc: "Um bônus ou penalidade ao acesso à educação para [GetPopType('farmers').GetName]"

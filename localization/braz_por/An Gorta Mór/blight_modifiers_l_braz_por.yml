@@ -1,0 +1,26 @@
+﻿l_braz_por:
+
+ blight_catastrophic: "Praga da Batata Catastrófica"
+ blight_severe: "Praga da Batata Severa"
+ blight_normal: "Praga da Batata"
+ irish_famine_legacy: "An Drochshaol"
+ grain_failure_modifier: "Colheita de Grãos Pobre"
+ food_sales_halted_modifier: "Exportações de Alimentos Suspensas"
+ ig_helped_irish_negative_modifier: "Ajudou os Irlandeses"
+ ig_converted_irish_positive_modifier: "Esforços de Conversão"
+ emergency_measures_modifier: "Medidas de Emergência"
+ irish_grain_subsidized: "Remessas de Grãos Irlandesas"
+ ig_irish_workhouses_positive_modifier: "Requisitos da Casa de Trabalho Impostos"
+ irish_famine_exodus: "Êxodo Irlandês"
+ movement_starving_revolution_modifier: "Morrendo de Fome"
+
+ goods_output_grain_mult:0 "@grain! Produção de Grãos"
+ goods_output_grain_mult_desc:0 "Um bônus ou penalidade para a produção de @grain! Grãos produzidos por edifícios."
+
+ h40_potato_blight: "Praga da Batata"
+ h40_potato_blight_desc: "Uma epidemia nas plantações de batata que apodrece os tubérculos no solo, ameaçando a fundação da subsistência."
+ h40_potato_blight_catastrophic: "Praga da Batata Catastrófica"
+ h40_potato_blight_catastrophic_desc: "Uma epidemia nas plantações de batata que apodrece os tubérculos no solo, destruindo quase todo o suprimento de alimentos de subsistência."
+ state_trait_blight_potato_dependence: "Dependência da Batata"
+
+ geographic_region_ireland: "Irlanda"

@@ -1,0 +1,8 @@
+name = "Tradução Comunitária Brasileira"
+path = "dlc/dlc_tcb"
+steam_id = "529340"
+pops_id = "dlc_tcb"
+mp_synced = yes
+affects_save_compatibility = yes
+localizable_name = "dlc_tcb"
+checksum = ""

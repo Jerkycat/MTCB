@@ -1,0 +1,91 @@
+﻿l_braz_por:
+
+ cre_events.1.t: "O Programa de Coletivização"
+ cre_events.1.d: "Nosso ambicioso plano de [GetLawType('law_collectivized_agriculture').GetName] está encontrando resistência significativa de [GetPopType('farmers').GetName] e [GetPopType('peasants').GetName] no campo, especialmente aqueles com posses de terra significativas em seu nome."
+ cre_events.1.f: ""Não senhor, esta é a terra do pai do meu pai, e pretendo mantê-la para meus filhos e os filhos deles. É uma boa terra, e não vou entregá-la para ninguém. Se os vagabundos preguiçosos da vila querem juntar seus campos miseráveis, deixe-os, talvez finalmente produzam algo de valor!""
+ cre_events.1.a: "Seria injusto forçar a coletivização sobre os relutantes."
+ cre_events.1.b: "Incentivos materiais ajudarão a aliviar seus medos."
+ cre_events.1.c: "Não podemos permitir que o campo seja infestado com pequenos latifundiários."
+
+ cre_events.2.t: "As Milícias Revolucionárias"
+ cre_events.2.d: "Nossa [concept_revolution] lançou as estruturas militares existentes em desordem. Homens aptos, jovens insubordinados e soldados desertores igualmente se derramam nas ruas, prontos para pegar em armas contra o velho regime."
+ cre_events.2.f: ""No início havia cenas assustadoras de caos. Os recrutas eram em sua maioria garotos de dezesseis ou dezessete anos das ruas de trás de [ROOT.GetCountry.GetCapital.GetCityHubName], cheios de ardor revolucionário mas completamente ignorantes do significado da guerra. Era impossível até mesmo fazê-los ficar em linha."\n\n— George Orwell" #Homenagem à Catalunha
+ cre_events.2.a: "Devemos mobilizar todos que pudermos, e construir uma força comprometida com a revolução."
+ cre_events.2.b: "Oficiais desertores das [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] nos levarão à vitória."
+ socialist_armed_forces_leader: "Um novo [concept_leader] alinhado com nossa [concept_ideology] assume o controle das [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant]"
+
+ cre_events.3.t: "Milicianas"
+ cre_events.3.d: "Impulsionadas por um espírito de igualdade revolucionária, milhares de mulheres se voluntariaram para papéis de combate nas milícias. Muitos homens nas fileiras reagem a sua inclusão, mas as voluntárias insistem que lhes seja dada igualdade plena."
+ cre_events.3.f: ""Não é nossa culpa que não possamos derrotar com delicadezas femininas ou razão humanitária agressores organizados para nos destruir, e armados com canhões, metralhadoras, rifles e bombas. Estamos lutando pela vida, e não é nossa culpa que, nesta luta, tenhamos que lidar com a morte."" #Mujeres Libres
+ cre_events.3.a: "Trabalhadoras, peguem seus rifles!"
+ cre_events.3.b: "Mulheres são mais adequadas para papéis de apoio."
+ female_anarchist_commander: "Uma miliciana [GetIdeology('ideology_anarchist').GetName] torna-se uma [concept_general] [ROOT.GetCountry.GetAdjectiveNoFlag]"
+
+ cre_events.4.t: "O Exército Negro"
+ cre_events.4.d: "Sob a orientação de [SCOPE.sCharacter('army_general').GetFullName], as [SCOPE.gsInterestGroup('army_ig').GetName] foram reorganizadas no Exército Negro [ROOT.GetCountry.GetAdjectiveNoFormatting]. Estruturado em torno de conselhos de soldados com poder para eleger seus próprios oficiais, o exército agora é dedicado a defender a revolução libertária."
+ cre_events.4.f: ""O homem só é livre se estiver preparado para matar todo carrasco e todo magnata do poder se eles não desejarem parar suas tarefas vergonhosas. Ele deve garantir o estabelecimento de uma sociedade verdadeiramente livre baseada na responsabilidade pessoal, a única sociedade realmente livre. Sua declaração sobre o Estado deve ser de destruição total."\n\n— Nestor Makhno"
+ cre_events.4.a: "Morte aos opressores dos trabalhadores!"
+
+ replace_commanders_with_anarchists: "Todo [concept_commander] é substituído por um oficial [GetIdeology('ideology_anarchist').GetName] recém-eleito, a menos que sejam [GetIdeology('ideology_moderate').GetName], #tooltippable;tooltip:[GetPlayer.GetTooltipTag],socialist_ideologies_list_tt Socialista#!, ou tenham uma [concept_popularity] de 50 ou superior"
+ replace_commanders_with_vanguardists: "Todo [concept_commander] é substituído por um oficial [GetIdeology('ideology_vanguardist').GetName] recém-nomeado, a menos que sejam [GetIdeology('ideology_moderate').GetName], [GetIdeology('ideology_communist').GetName], ou já sejam [GetIdeology('ideology_vanguardist').GetName]"
+ replace_commanders_with_communists: "Todo [concept_commander] é substituído por um oficial [GetIdeology('ideology_communist').GetName] recém-eleito, a menos que sejam [GetIdeology('ideology_moderate').GetName] ou já sejam #tooltippable;tooltip:[GetPlayer.GetTooltipTag],socialist_ideologies_list_tt Socialista#!"
+
+ cre_events.5.t: "[SCOPE.sCountry('first_council_republic').GetName] Vermelha Ascendendo"
+ cre_events.5.d: "A consolidação do governo socialista em [SCOPE.sCountry('first_council_republic').GetName] energizou movimentos simpáticos por todo o mundo. Agitadores [SCOPE.sCountry('first_council_republic').GetAdjectiveNoFormatting] começaram a chegar em [ROOT.GetCountry.GetName], com a intenção de espalhar a revolução."
+ cre_events.5.f: ""Diga-nos, como foi?"\n"Grandes coisas foram feitas em [SCOPE.sCountry('first_council_republic').GetNameNoFormatting], você tem que vivê-la para entendê-la. Eu vi aqueles camaradas que criaram as coletivas, que organizaram a socialização, sem qualquer pagamento ou compensação, apenas para que a comunidade tivesse o que precisava. Tive experiências que ficariam comigo por toda a vida, tal florescimento de ideias-tornadas-realidade."" #Pepita Carpena
+ cre_events.5.a: "Não temos nada a perder senão nossas correntes!"
+ cre_events.5.b: "A ameaça [SCOPE.sCountry('first_council_republic').GetAdjectiveNoFormatting] deve ser contida."
+ cre_events.5.c: "Nosso amigo de [SCOPE.sCountry('first_council_republic').GetNameNoFormatting] é muito encorajador."
+ cre_events.5.e: "Saudamos nossos camaradas em seu sucesso."
+
+ cre_events.6.t: "A Sociedade Sem Estado"
+ cre_events.6.d: "À medida que as instituições do antigo estado [ROOT.GetCountry.GetAdjective] foram substituídas por organizações horizontais, nosso lugar como uma única entidade no palco mundial entrou em alguma confusão. À medida que mais e mais autonomia é transferida para o nível local, uma política militar e externa unificada torna-se mais difícil de justificar e manter."
+ cre_events.6.f: ""Todo poder estatal, todo governo, por sua própria natureza coloca-se fora e acima do povo e inevitavelmente o subordina a uma organização e a objetivos que são estranhos e opostos às reais necessidades e aspirações do povo. Nós nos declaramos inimigos de todo governo e todo poder estatal, e da organização governamental em geral."\n\n— Mikhail Bakunin"
+ cre_events.6.a: "Contra um mundo de estados, devemos apresentar uma frente unida."
+ cre_events.6.b: "Viva a federação!"
+ all_incorporated_states_become_communes: "Cada um de nossos [Concept('concept_incorporated_state', '$concept_incorporated_states$')] forma um [ROOT.GetCountry.GetGovernment.GetName] individual e torna-se um [concept_subject] [ROOT.GetCountry.GetAdjective]"
+
+ cre_events.7.t: "Ni Dios, Ni Estado, Ni Patrón"
+ cre_events.7.d: "O anarquismo [ROOT.GetCountry.GetAdjective] há muito mantém uma animosidade pela religião e pelas [SCOPE.gsInterestGroup('devout_ig').GetName]. A ascensão de [GetLawType('law_anarchy').GetName] também anunciou uma campanha generalizada de assassinato e destruição contra a igreja e seu clero."
+ cre_events.7.f: ""Praticamente todo edifício de qualquer tamanho foi tomado pelos trabalhadores e estava coberto com bandeiras vermelhas ou com a bandeira vermelha e preta dos Anarquistas; cada parede estava rabiscada com a foice e o martelo e com as iniciais dos partidos revolucionários; quase toda igreja foi saqueada e suas imagens queimadas. Igrejas aqui e ali estavam sendo sistematicamente demolidas por gangues de trabalhadores."\n\n— George Orwell"
+ cre_events.7.a: "Com as tripas do último padre estrangulemos o pescoço do último rei."
+ cre_events.7.b: "Independentemente dos crimes da igreja, devemos conter esta violência."
+ cre_events.7.c: "O Reino de Deus está dentro de nós."
+ christian_anarchist_spawns: "Um [concept_leader] [GetIdeology('ideology_anarchist').GetName] assume o controle das [SCOPE.gsInterestGroup('devout_ig').GetName]"
+
+ cre_events.8.t: "A Oposição Operária"
+ cre_events.8.d: "Uma facção do [SCOPE.sPoliticalMovement('communist_movement').GetName] liderada por [SCOPE.sCharacter('opposition_agitator').GetFullName] começou a se opor à criação de um estado [GetIdeology('ideology_vanguardist').GetName], defendendo a supremacia das [SCOPE.gsInterestGroup('unions_ig').GetName] sobre o partido."
+ cre_events.8.f: ""O esforço observado atualmente para evitar colocar em prática decisões do congresso do partido sobre o papel e tarefas dos sindicatos no governo atestam a desconfiança direta da força da classe trabalhadora. Os elementos dirigentes conscientes da classe trabalhadora, comunistas organizados, devem direcionar toda sua energia para superar essa desconfiança e a estagnação burocrática existente no partido."\n\n— Teses da Oposição Operária"
+ cre_events.8.a: "Proibam facções e imponham a unidade do partido."
+ cre_events.8.b: "O partido pode tolerar e canalizar dissidência interna."
+
+ cre_events.9.t: "A Fase Mais Elevada do Comunismo"
+ cre_events.9.d: "A promessa do comunismo foi cumprida. Os povos libertos de [ROOT.GetCountry.GetName] agora desfrutam de vidas de luxo inimagináveis para seus ancestrais, livres de exploração e necessidade."
+ cre_events.9.f: ""Depois que a subordinação escravizante do indivíduo à divisão do trabalho, e com ela também a antítese entre trabalho mental e físico, tiver desaparecido; depois que o trabalho se tornou não apenas um meio de vida, mas a principal necessidade da vida; depois que as forças produtivas também aumentaram com o desenvolvimento integral do indivíduo, e todas as fontes da riqueza cooperativa fluem mais abundantemente – só então o estreito horizonte do direito burguês pode ser cruzado em sua totalidade e a sociedade inscrever em suas bandeiras: De cada um de acordo com sua capacidade, a cada um de acordo com suas necessidades!"\n\n— Karl Marx"
+ cre_events.9.a: "Uma utopia tornada real."
+
+ cre_events.10.t: "Trabalhadores do Mundo, Uni-vos?"
+ cre_events.10.d: "Desde sua concepção mais inicial, o movimento socialista tem sido internacionalista e anti-imperialista. A crescente maré de consciência nacionalista começou a tensionar esses ideais, com alguns segmentos do movimento recuando para uma visão mais exclusivista do socialismo."
+ cre_events.10.f: ""As nacionalidades dos povos se associando de acordo com o princípio da comunidade serão compelidas a se misturar umas com as outras como resultado desta associação e assim se dissolverem, assim como as várias distinções de classe e estado devem desaparecer através da abolição de sua base, a propriedade privada."\n\n— Friedrich Engels"
+ cre_events.10.a: "Todos os homens são irmãos."
+ cre_events.10.b: "Os trabalhadores [ROOT.GetCountry.GetAdjective] devem vir primeiro."
+
+ cre_events.11.t: "A Revolução Universal"
+ cre_events.11.d: "A consolidação de nossa [GetLawType('law_council_republic').GetName] representa um sério desafio ideológico à ordem mundial existente. Muitos dentro do movimento argumentam que uma revolução global é necessária para evitar que potências estrangeiras intervenham e restabeleçam o capitalismo em [ROOT.GetCountry.GetName]."
+ cre_events.11.f: ""Ao criar o mercado mundial, a grande indústria já aproximou todos os povos da Terra, e especialmente os povos civilizados, em relação tão próxima que nenhum é independente do que acontece aos outros. Segue-se que a revolução comunista não será meramente um fenômeno nacional, mas deve ocorrer simultaneamente em todos os países civilizados."\n\n— Friedrich Engels"
+ cre_events.11.a: "Devemos exportar a revolução para todos os cantos do mundo."
+ cre_events.11.b: "Melhor manter a distensão para nossa própria sobrevivência."
+
+ cre_events.12.t: "Uma Maré Ascendente"
+ cre_events.12.d: "O cuidadoso e eficaz projeto de reforma dos Social-Democratas provou ser um sucesso animador. As vozes pedindo reformas violentas e dramáticas da sociedade em grande parte se calaram, substituídas por prosperidade ordenada."
+ cre_events.12.f: ""Uma faixa roxa colore a borda extrema do horizonte de vermelho sangue, anunciando a nova luz; névoa e nuvens se reúnem, enrolam-se em massa, lançam-se contra o brilho da manhã, e conseguem cobrir seus raios por um momento. Mas nenhum poder no mundo pode impedir o lento e majestoso nascer do próprio sol, que uma hora depois está no firmamento visível a todos, e dando luz e calor a toda a terra."\n\n— Ferdinand Lassalle"
+ cre_events.12.a: "Conduzimos o navio do estado longe do perigo."
+ cre_events.12.b: "Rumo ao socialismo!"
+
+ cre_events.13.t: "Poder dos Trabalhadores"
+ cre_events.13.d: "Com as indústrias [ROOT.GetCountry.GetAdjective] crescendo a novos patamares, o primeiro Plano Quinquenal foi declarado um sucesso. O cadinho destes anos de fundação nos deu a oportunidade de forjar uma visão concreta para a direção futura da economia."
+ cre_events.13.f: ""A sociedade tomará todas as forças de produção e meios de comércio, assim como a troca e distribuição de produtos, das mãos de capitalistas privados e os gerenciará de acordo com um plano baseado na disponibilidade de recursos e nas necessidades de toda a sociedade. Desta forma, mais importante de tudo, as consequências malignas que agora estão associadas à condução da grande indústria serão abolidas."\n\n— Friedrich Engels"
+ cre_events.13.a: "O Comitê Estatal de Planejamento supervisionará o crescimento contínuo."
+ cre_events.13.b: "O planejamento descentralizado garante que ninguém seja desconsiderado."
+ cre_events.13.c: "As forças de mercado permanecem mais confiáveis que qualquer plano pré-calculado."
+ cre_events.13.e: "A cibernética desbloqueia um paradigma totalmente novo de gestão econômica."

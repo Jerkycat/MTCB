@@ -1,0 +1,34 @@
+﻿l_braz_por:
+#Rural Folk
+ ite_ig_trait_pashtunwali: "Pashtunwali"
+ ite_ig_trait_pashtunwali_desc: "Abriremos alegremente nossas casas aos visitantes, daremos abrigo aos necessitados, e exerceremos grande vingança sobre aqueles que nos fazem mal."
+ ite_ig_trait_tribal_militias: "Voluntários dos Clãs"
+ ite_ig_trait_tribal_militias_desc: "Nosso país tem sido bom conosco. É justo que ofereçamos nosso serviço em tempos de necessidade."
+ ite_ig_trait_alienated_tribes: "Clãs em Conflito"
+ ite_ig_trait_alienated_tribes_desc: "Se o chamado governo não respeita nossa vontade, simplesmente a promulgaremos nós mesmos!"
+ ite_ig_trait_ikki: "Ikki"
+ ite_ig_trait_ikki_desc: "Os senhores dependem de pagarmos nossos impostos dutilmente e no prazo. Ao perturbar a base de sua riqueza, eles serão forçados a reconhecer nossas demandas."
+#Armed Forces
+ ite_ig_trait_ronin: "Ronin"
+ ite_ig_trait_ronin_desc: "A decadência de nossa posição deixou grandes massas de samurais desempregados vagando pelo campo, causando problemas onde quer que vão."
+ ite_ig_trait_interservice_rivalry: "Rivalidade Interserviços"
+ ite_ig_trait_interservice_rivalry_desc: "Sem um governo digno para nos unir, o exército e a marinha estão em conflito. Rivalidades mesquinhas e competição minam a coesão militar como um todo."
+#Intelligentsia
+ ite_ig_trait_rangaku: "Rangaku"
+ ite_ig_trait_rangaku_desc: "Os países do Ocidente fizeram grandes avanços em ciência e tecnologia, progressos que estamos ansiosos para traduzir e estudar para o benefício de nossa própria nação."
+ ite_ig_trait_imperial_examinations: "Exames Imperiais"
+ ite_ig_trait_imperial_examinations_desc: "Podemos garantir um fluxo constante de recrutas promissores no serviço estatal, cada um instruído na linguagem apropriada e tradição literária."
+#Landowners
+ ite_ig_trait_junzi: "Junzi"
+ ite_ig_trait_junzi_desc: "Através de nossa conduta virtuosa, estabelecemos um padrão que outros seguirão."
+ ite_ig_trait_scholar_bureaucrats: "Burocratas-Eruditos"
+ ite_ig_trait_scholar_bureaucrats_desc: "Fomos encarregados de supervisionar os assuntos diários do estado, e pretendemos sobressair em nossa tarefa designada."
+ ite_ig_trait_palace_intrigue: "Intriga Palaciana"
+ ite_ig_trait_palace_intrigue_desc: "Os ditames da Corte Interna causaram grande tumulto e paranoia entre nossas fileiras. Os mecanismos do governo apresentam muitas oportunidades maduras para intrigar e avançar nossas próprias posições."
+#Devout
+ ite_ig_trait_mandate_of_heaven: "Mandato do Céu"
+ ite_ig_trait_mandate_of_heaven_desc: "Não há apoio mais sólido para um governo que o Mandato do Céu. A grande virtude de nosso governante deixa claro para todos que eles o têm bem em mãos."
+ ite_ig_trait_meritocracy: "Meritocracia"
+ ite_ig_trait_meritocracy_desc: "Aqueles que estudam, trabalham e incorporam as virtudes confucionistas serão recompensados nesta vida. O autocultivo é o cultivo da nação."
+ ite_ig_trait_right_of_rebellion: "Direito de Rebelião"
+ ite_ig_trait_right_of_rebellion_desc: "Quando o governo parece estar perdendo o Mandato do Céu, é natural e justo buscar um substituto digno."

@@ -1,0 +1,389 @@
+﻿l_braz_por:
+ headlines_tech_group: "@headlines_techicon! #yellow Manchetes#! | Tecnologias"
+ headlines_tech_important_group: "@headlines_techicon! #yellow Manchetes#! | Tecnologias Importantes"
+
+ HEADLINES_TECH_NAME: "[GetGlobalVariable('headlines_tech_acquired').GetTechnology.GetName]"
+
+ notification_headlines_tech_bessemer_process_tooltip:0 "#header $notification_headlines_tech_bessemer_process_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_bessemer_process_desc$"
+ notification_headlines_tech_bessemer_process_name:0 "#b PROCESSO 'BESSEMER' REVELADO #!"
+ notification_headlines_tech_bessemer_process_desc:1 "Um fabricante de aço [SCOPE.sCountry('headlines_bessemer_process_researcher').GetAdjective] inventou o $HEADLINES_TECH_NAME$. #lore A patente do processo foi contestada por homens de vários outros países, que afirmam já ter desenvolvido os fundamentos do... #!"
+
+
+ notification_headlines_tech_crystal_glass_tooltip:0 "#header $notification_headlines_tech_crystal_glass_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_crystal_glass_desc$"
+ notification_headlines_tech_crystal_glass_name:0 "#b VIDRO TÃO CLARO QUANTO CRISTAL #!"
+ notification_headlines_tech_crystal_glass_desc:1 "Vidreiros em [SCOPE.sCountry('headlines_crystal_glass_researcher').GetName] produziram $HEADLINES_TECH_NAME$ em escala industrial. #lore O uso de chumbo no processo provou ser um desafio no aumento da produção, já que... #!"
+
+
+ notification_headlines_tech_baking_powder_tooltip:0 "#header $notification_headlines_tech_baking_powder_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_baking_powder_desc$"
+ notification_headlines_tech_baking_powder_name:0 "#b FARINHA AUTO-FERMENTÁVEL #!"
+ notification_headlines_tech_baking_powder_desc:1 "Químicos em [SCOPE.sCountry('headlines_baking_powder_researcher').GetName] inventaram $HEADLINES_TECH_NAME$. #lore A combinação estável de químicos permitirá um aumento ainda maior da produção industrial de pão, bem como vários outros usos imediatos notados pelo... #!"
+
+
+ notification_headlines_tech_nitroglycerin_tooltip:0 "#header $notification_headlines_tech_nitroglycerin_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_nitroglycerin_desc$"
+ notification_headlines_tech_nitroglycerin_name:0 "#b NOVO ÓLEO EXPLOSIVO PROVA SER MORTAL #!"
+ notification_headlines_tech_nitroglycerin_desc:1 "Químicos [SCOPE.sCountry('headlines_nitroglycerin_researcher').GetAdjective] inventaram $HEADLINES_TECH_NAME$. #lore A nova substância provou ser um explosivo especialmente volátil e potente. O líder do projeto alertou contra seu uso, dizendo que o líquido é extremamente instável e propenso a... #!"
+
+
+ notification_headlines_tech_improved_fertilizer_tooltip:0 "#header $notification_headlines_tech_improved_fertilizer_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_improved_fertilizer_desc$"
+ notification_headlines_tech_improved_fertilizer_name:0 "#b FERTILIZANTES QUÍMICOS MOSTRAM PROMESSA #!"
+ notification_headlines_tech_improved_fertilizer_desc:1 "Agrônomos em [SCOPE.sCountry('headlines_improved_fertilizer_researcher').GetName] inventaram métodos de produção de $HEADLINES_TECH_NAME$ através de processos especializados. #lore Colheitas de teste iniciais exibiram um dobro da safra sobre métodos tradicionais... #!"
+
+
+ notification_headlines_tech_steam_donkey_tooltip:0 "#header $notification_headlines_tech_steam_donkey_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_steam_donkey_desc$"
+ notification_headlines_tech_steam_donkey_name:0 "#b 'BURROS A VAPOR' SUBSTITUIRÃO MULAS? #!"
+ notification_headlines_tech_steam_donkey_desc:1 "Um inventor [SCOPE.sCountry('headlines_steam_donkey_researcher').GetAdjective] demonstrou uma máquina que eles chamam de [GetGlobalVariable('headlines_tech_acquired').GetTechnology.GetName]. #lore O mecanismo movido a vapor é capaz de puxar toras e cargas de minério além da capacidade de qualquer homem ou animal, com uma capacidade... #!"
+
+
+ notification_headlines_tech_dynamite_tooltip:0 "#header $notification_headlines_tech_dynamite_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_dynamite_desc$"
+ notification_headlines_tech_dynamite_name:0 "#b 'DINAMITE' - UM EXPLOSIVO SEGURO? #!"
+ notification_headlines_tech_dynamite_desc:1 "Um inventor [SCOPE.sCountry('headlines_dynamite_researcher').GetAdjective] criou a fórmula para $HEADLINES_TECH_NAME$. #lore Ao combinar nitroglicerina com agentes de ligação adicionais, a nova substância retém todo o poder enquanto é muito mais estável e menos suscetível a... #!"
+
+
+ notification_headlines_tech_steel_railway_cars_tooltip:0 "#header $notification_headlines_tech_steel_railway_cars_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_steel_railway_cars_desc$"
+ notification_headlines_tech_steel_railway_cars_name:0 "#b NOVOS VAGÕES MELHORAM EFICIÊNCIA #!"
+ notification_headlines_tech_steel_railway_cars_desc:1 "Ferrovias em [SCOPE.sCountry('headlines_steel_railway_cars_researcher').GetName] começaram a substituir vagões de madeira por $HEADLINES_TECH_NAME$. #lore Os novos designs provaram ser muito mais robustos que os vagões existentes, permitindo... #!"
+
+
+ notification_headlines_tech_rubber_mastication_tooltip:0 "#header $notification_headlines_tech_rubber_mastication_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_rubber_mastication_desc$"
+ notification_headlines_tech_rubber_mastication_name:0 "#b NOVO PROCESSO TORNA BORRACHA VIÁVEL #!"
+ notification_headlines_tech_rubber_mastication_desc:1 "[SCOPE.sCountry('headlines_rubber_mastication_researcher').GetName] demonstrou os princípios de $HEADLINES_TECH_NAME$, permitindo que seja colhida e processada em massa. #lore Sem este processo, a borracha natural é incrivelmente difícil de trabalhar, limitando seu... #!"
+
+
+ notification_headlines_tech_pumpjacks_tooltip:0 "#header $notification_headlines_tech_pumpjacks_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_pumpjacks_desc$"
+ notification_headlines_tech_pumpjacks_name:0 "#b PETRÓLEO - COMBUSTÍVEL DO FUTURO #!"
+ notification_headlines_tech_pumpjacks_desc:1 "Engenheiros em [SCOPE.sCountry('headlines_pumpjacks_researcher').GetName] inventaram $HEADLINES_TECH_NAME$, permitindo que o Petróleo seja extraído de forma confiável da terra. #lore O mecanismo enganosamente simples da bomba permite que o design seja facilmente transportado para qualquer local onde... #!"
+
+
+ notification_headlines_tech_electrical_generation_tooltip:0 "#header $notification_headlines_tech_electrical_generation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_electrical_generation_desc$"
+ notification_headlines_tech_electrical_generation_name:0 "#b A ESSÊNCIA DO RELÂMPAGO #!"
+ notification_headlines_tech_electrical_generation_desc:1 "Inventores [SCOPE.sCountry('headlines_electrical_generation_researcher').GetAdjective] alcançaram $HEADLINES_TECH_NAME$ confiável. #lore Os potenciais desta nova força elétrica são ilimitados, dizem os cientistas envolvidos, com aplicações em casa, indústria, obras públicas e até... #!"
+
+
+ notification_headlines_tech_aniline_tooltip:0 "#header $notification_headlines_tech_aniline_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_aniline_desc$"
+ notification_headlines_tech_aniline_name:0 "#b CORANTES SINTÉTICOS DESLUMBRAM #!"
+ notification_headlines_tech_aniline_desc:1 "Químicos em [SCOPE.sCountry('headlines_aniline_researcher').GetName] inventaram $HEADLINES_TECH_NAME$. #lore O químico permite a produção de corantes vibrantes que anteriormente requeriam... #!"
+
+
+ notification_headlines_tech_vulcanization_tooltip:0 "#header $notification_headlines_tech_vulcanization_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_vulcanization_desc$"
+ notification_headlines_tech_vulcanization_name:0 "#b BORRACHA TORNOU-SE ELÁSTICA #!"
+ notification_headlines_tech_vulcanization_desc:1 "Químicos [SCOPE.sCountry('headlines_vulcanization_researcher').GetAdjective] inventaram $HEADLINES_TECH_NAME$, expandindo a utilidade da Borracha. #lore O processo de alta temperatura produz borracha que é tanto mais flexível quanto mais durável, permitindo... #!"
+
+
+ notification_headlines_tech_nitrogen_fixation_tooltip:0 "#header $notification_headlines_tech_nitrogen_fixation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_nitrogen_fixation_desc$"
+ notification_headlines_tech_nitrogen_fixation_name:0 "#b FERTILIZANTE DE NITROGÊNIO PROMETE GANHOS #!"
+ notification_headlines_tech_nitrogen_fixation_desc:1 "Agrônomos em [SCOPE.sCountry('headlines_nitrogen_fixation_researcher').GetName] desenvolveram um processo artificial de $HEADLINES_TECH_NAME$. #lore O novo fertilizante químico permite rendimentos incríveis de terras cultiváveis existentes, prometendo outro dobro de colheitas sobre... #!"
+
+
+ notification_headlines_tech_mechanized_farming_tooltip:0 "#header $notification_headlines_tech_mechanized_farming_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_mechanized_farming_desc$"
+ notification_headlines_tech_mechanized_farming_name:0 "#b MECANIZAÇÃO DO CAMPO #!"
+ notification_headlines_tech_mechanized_farming_desc:1 "Engenheiros [SCOPE.sCountry('headlines_mechanized_farming_researcher').GetAdjective] implementaram técnicas de $HEADLINES_TECH_NAME$. #lore Os novos designs de tratores são capazes de arar campos inteiros, reduzindo enormemente a mão de obra necessária para cultivar... #!"
+
+
+ notification_headlines_tech_plastics_tooltip:0 "#header $notification_headlines_tech_plastics_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_plastics_desc$"
+ notification_headlines_tech_plastics_name:0 "#b PLÁSTICOS - O MATERIAL MARAVILHOSO #!"
+ notification_headlines_tech_plastics_desc:1 "Químicos [SCOPE.sCountry('headlines_plastics_researcher').GetAdjective] inventaram $HEADLINES_TECH_NAME$. #lore O novo material pode ser moldado numa variedade infinita de formas para uso doméstico e industrial, apresentando oportunidades ilimitadas para... #!"
+
+
+ notification_headlines_tech_steam_turbine_tooltip:0 "#header $notification_headlines_tech_steam_turbine_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_steam_turbine_desc$"
+ notification_headlines_tech_steam_turbine_name:0 "#b ELETRICIDADE A PARTIR DO VAPOR #!"
+ notification_headlines_tech_steam_turbine_desc:1 "Engenheiros em [SCOPE.sCountry('headlines_steam_turbine_researcher').GetName] inventaram a $HEADLINES_TECH_NAME$. #lore As novas turbinas já provaram ser excepcionalmente úteis tanto em terra quanto no mar, com planos de aumentar a tecnologia dez vezes enquanto... #!"
+
+
+ notification_headlines_tech_combustion_engine_tooltip:0 "#header $notification_headlines_tech_combustion_engine_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_combustion_engine_desc$"
+ notification_headlines_tech_combustion_engine_name:0 "#b ENERGIA A VAPOR OBSOLETA? #!"
+ notification_headlines_tech_combustion_engine_desc:1 "Inventores de [SCOPE.sCountry('headlines_combustion_engine_researcher').GetName] criaram o $HEADLINES_TECH_NAME$. #lore A capacidade do novo motor de queimar combustível diretamente em energia mecânica mostra grande potencial para miniaturização, com várias propostas já... #!"
+
+
+ notification_headlines_tech_telephone_tooltip:0 "#header $notification_headlines_tech_telephone_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_telephone_desc$"
+ notification_headlines_tech_telephone_name:0 "#b 'TELEFONE' ENVIA FALA POR FIO #!"
+ notification_headlines_tech_telephone_desc:1 "Um inventor [SCOPE.sCountry('headlines_telephone_researcher').GetAdjective] desenvolveu o $HEADLINES_TECH_NAME$. #lore A patente do telefone tornou-se contestada já que vários outros inventores afirmam ter... #!"
+
+
+ notification_headlines_tech_art_silk_tooltip:0 "#header $notification_headlines_tech_art_silk_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_art_silk_desc$"
+ notification_headlines_tech_art_silk_name:0 "#b SEDA SINTÉTICA INDISTINGUÍVEL #!"
+ notification_headlines_tech_art_silk_desc:1 "Cientistas de [SCOPE.sCountry('headlines_art_silk_researcher').GetName] inventaram $HEADLINES_TECH_NAME$. #lore Roupas produzidas usando o material à base de plantas dizem passar inteiramente como o artigo genuíno, com várias plantas de produção em escala total já... #!"
+
+
+ notification_headlines_tech_electric_railway_tooltip:0 "#header $notification_headlines_tech_electric_railway_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_electric_railway_desc$"
+ notification_headlines_tech_electric_railway_name:0 "#b O TRILHO DO RELÂMPAGO #!"
+ notification_headlines_tech_electric_railway_desc:1 "Engenheiros em [SCOPE.sCountry('headlines_electric_railway_researcher').GetName] inventaram $HEADLINES_TECH_NAME$. #lore Acelerando alimentadas por cabos em vez de motores, as novas locomotivas já provaram ser... #!"
+
+
+ notification_headlines_tech_radio_tooltip:0 "#header $notification_headlines_tech_radio_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_radio_desc$"
+ notification_headlines_tech_radio_name:0 "#b RÁDIO - O TELÉGRAFO SEM FIO #!"
+ notification_headlines_tech_radio_desc:1 "Um inventor [SCOPE.sCountry('headlines_radio_researcher').GetAdjective] criou o primeiro $HEADLINES_TECH_NAME$. #lore Aproveitando a nova ciência das ondas eletromagnéticas, os rádios são capazes de transmitir mensagens telegráficas codificadas a grande distância e velocidade, sem... #!"
+
+
+ notification_headlines_tech_pasteurization_tooltip:0 "#header $notification_headlines_tech_pasteurization_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_pasteurization_desc$"
+ notification_headlines_tech_pasteurization_name:0 "#b 'PASTEURIZAÇÃO' PREVINE DETERIORAÇÃO #!"
+ notification_headlines_tech_pasteurization_desc:1 "Um químico em [SCOPE.sCountry('headlines_pasteurization_researcher').GetName] inventou $HEADLINES_TECH_NAME$. #lore O processo foi demonstrado aquecendo leite e vinho a uma temperatura especificada antes de selar o produto, prevenindo o crescimento de... #!"
+
+
+ notification_headlines_tech_arc_welding_tooltip:0 "#header $notification_headlines_tech_arc_welding_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_arc_welding_desc$"
+ notification_headlines_tech_arc_welding_name:0 "#b METAL DERRETIDO NUM FLASH #!"
+ notification_headlines_tech_arc_welding_desc:1 "A indústria de construção de [SCOPE.sCountry('headlines_arc_welding_researcher').GetName] desenvolveu $HEADLINES_TECH_NAME$. #lore O processo permite a junção de vigas de metal no local, ao custo do tremendo fornecimento de energia necessário para... #!"
+
+
+ notification_headlines_tech_oil_turbine_tooltip:0 "#header $notification_headlines_tech_oil_turbine_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_oil_turbine_desc$"
+ notification_headlines_tech_oil_turbine_name:0 "#b MEGA-TURBINAS REVELADAS #!"
+ notification_headlines_tech_oil_turbine_desc:1 "Engenheiros [SCOPE.sCountry('headlines_oil_turbine_researcher').GetAdjective] inventaram $HEADLINES_TECH_NAME$. #lore A incrível potência contida no óleo combustível usado permite que as novas turbinas sejam construídas em escala muito maior que... #!"
+
+
+ notification_headlines_tech_compression_ignition_tooltip:0 "#header $notification_headlines_tech_compression_ignition_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_compression_ignition_desc$"
+ notification_headlines_tech_compression_ignition_name:0 "#b NOVOS MOTORES 'DIESEL' #!"
+ notification_headlines_tech_compression_ignition_desc:1 "Engenheiros [SCOPE.sCountry('headlines_compression_ignition_researcher').GetAdjective] inventaram $HEADLINES_TECH_NAME$. #lore A maior eficiência dos novos motores permite que o petróleo alimente trens, tratores, bombas e todos os tipos de... #!"
+
+
+ notification_headlines_tech_dough_rollers_tooltip:0 "#header $notification_headlines_tech_dough_rollers_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_dough_rollers_desc$"
+ notification_headlines_tech_dough_rollers_name:0 "#b A PADARIA AUTOMÁTICA #!"
+ notification_headlines_tech_dough_rollers_desc:1 "Inventores em [SCOPE.sCountry('headlines_dough_rollers_researcher').GetName] desenvolveram $HEADLINES_TECH_NAME$. #lore Com o potencial de aumentar massivamente a produção de pão com menos trabalhadores qualificados, as novas máquinas já... #!"
+
+
+ notification_headlines_tech_rifling_tooltip:0 "#header $notification_headlines_tech_rifling_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_rifling_desc$"
+ notification_headlines_tech_rifling_name:0 "#b raiamento pesquisado #!"
+ notification_headlines_tech_rifling_desc:1 " [SCOPE.sCountry('headlines_rifling_researcher').GetName] inventou $HEADLINES_TECH_NAME$. #lore SUBSTITUIR_ME #!"
+
+
+ notification_headlines_tech_breech_loading_artillery_tooltip:0 "#header $notification_headlines_tech_breech_loading_artillery_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_breech_loading_artillery_desc$"
+ notification_headlines_tech_breech_loading_artillery_name:0 "#b CANHÕES DE ESTILHAÇOS DEMONSTRADOS #!"
+ notification_headlines_tech_breech_loading_artillery_desc:1 "[SCOPE.sCountry('headlines_breech_loading_artillery_researcher').GetName] inventou $HEADLINES_TECH_NAME$. #lore A mudança de artilharia de carregamento pela boca permite que projéteis maiores sejam carregados a uma taxa mais rápida, com ramificações potencialmente enormes para... #!"
+
+
+ notification_headlines_tech_repeaters_tooltip:0 "#header $notification_headlines_tech_repeaters_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_repeaters_desc$"
+ notification_headlines_tech_repeaters_name:0 "#b O RIFLE DE REPETIÇÃO #!"
+ notification_headlines_tech_repeaters_desc:1 "Armeiros em [SCOPE.sCountry('headlines_repeaters_researcher').GetName] desenvolveram $HEADLINES_TECH_NAME$. #lore Com várias rodadas carregadas na arma de uma só vez, um soldado empunhando esta arma tem seu poder de fogo multiplicado, capaz de... #!"
+
+
+ notification_headlines_tech_modern_nursing_tooltip:0 "#header $notification_headlines_tech_modern_nursing_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_modern_nursing_desc$"
+ notification_headlines_tech_modern_nursing_name:0 "#b MÉDICOS DE CAMPO SALVANDO VIDAS #!"
+ notification_headlines_tech_modern_nursing_desc:1 "Os médicos militares de [SCOPE.sCountry('headlines_modern_nursing_researcher').GetName] desenvolveram $HEADLINES_TECH_NAME$. #lore Hospitais de campo modernos adotaram novas práticas de saneamento e cuidado ao paciente, levando a um aumento bem-vindo em... #!"
+
+
+ notification_headlines_tech_gantry_cranes_tooltip:0 "#header $notification_headlines_tech_gantry_cranes_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_gantry_cranes_desc$"
+ notification_headlines_tech_gantry_cranes_name:0 "#b GUINDASTES QUE LEVANTAM NAVIOS INTEIROS #!"
+ notification_headlines_tech_gantry_cranes_desc:1 "[SCOPE.sCountry('headlines_gantry_cranes_researcher').GetName] desenvolveu $HEADLINES_TECH_NAME$ para seus portos. #lore A primeira abertura do novo porto industrial foi recebida com grande fanfarra, juntamente com uma demonstração da capacidade das novas instalações de... #!"
+
+
+ notification_headlines_tech_ironclad_tech_tooltip:0 "#header $notification_headlines_tech_ironclad_tech_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_ironclad_tech_desc$"
+ notification_headlines_tech_ironclad_tech_name:0 "#b FIM DA ERA DA VELA #!"
+ notification_headlines_tech_ironclad_tech_desc:1 "[SCOPE.sCountry('headlines_ironclad_tech_researcher').GetName] desenvolveu navios $HEADLINES_TECH_NAME$. #lore Testes iniciais mostraram que navios blindados são impermeáveis até ao mais pesado fogo de canhão, tornando instantaneamente obsoleto todo... #!"
+
+
+ notification_headlines_tech_handcranked_machine_gun_tooltip:0 "#header $notification_headlines_tech_handcranked_machine_gun_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_handcranked_machine_gun_desc$"
+ notification_headlines_tech_handcranked_machine_gun_name:0 "#b METRALHADORAS DEMONSTRADAS #!"
+ notification_headlines_tech_handcranked_machine_gun_desc:1 "Um inventor em [SCOPE.sCountry('headlines_handcranked_machine_gun_researcher').GetName] desenvolveu a $HEADLINES_TECH_NAME$. #lore A primeira iteração é capaz de atingir uma taxa de fogo de 400 tiros por minuto, um aumento drástico em poder de fogo que certamente... #!"
+
+
+ notification_headlines_tech_bolt_action_rifles_tooltip:0 "#header $notification_headlines_tech_bolt_action_rifles_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_bolt_action_rifles_desc$"
+ notification_headlines_tech_bolt_action_rifles_name:0 "#b RIFLES DE REPETIÇÃO FERROLHO #!"
+ notification_headlines_tech_bolt_action_rifles_desc:1 "Armeiros [SCOPE.sCountry('headlines_bolt_action_rifles_researcher').GetAdjective] inventaram o $HEADLINES_TECH_NAME$. #lore Embora inicialmente questionado como delicado e complicado, o novo mecanismo já provou seu valor em testes, permitindo ao soldado maior... #!"
+
+
+ notification_headlines_tech_trench_works_tooltip:0 "#header $notification_headlines_tech_trench_works_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_trench_works_desc$"
+ notification_headlines_tech_trench_works_name:0 "#b A ERA DA GUERRA DE TRINCHEIRAS #!"
+ notification_headlines_tech_trench_works_desc:1 "[SCOPE.sCountry('headlines_trench_works_researcher').GetName] abraçou a doutrina de $HEADLINES_TECH_NAME$. #lore À medida que as forças militares crescem cada vez maiores, exércitos modernos começaram a adotar táticas antigas, transformando a própria terra em seu... #!"
+
+
+ notification_headlines_tech_destroyer_tooltip:0 "#header $notification_headlines_tech_destroyer_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_destroyer_desc$"
+ notification_headlines_tech_destroyer_name:0 "#b DESTRUIDORES DOS MARES #!"
+ notification_headlines_tech_destroyer_desc:1 "[SCOPE.sCountry('headlines_destroyer_researcher').GetName] desenvolveu $HEADLINES_TECH_NAME$. #lore A corrida armamentista naval continua com a cerimônia de inauguração do novo design, mais rápido e elegante, com uma variedade de melhorias... #!"
+
+
+ notification_headlines_tech_submarine_tooltip:0 "#header $notification_headlines_tech_submarine_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_submarine_desc$"
+ notification_headlines_tech_submarine_name:0 "#b GUERRA ABAIXO DAS ONDAS #!"
+ notification_headlines_tech_submarine_desc:1 "[SCOPE.sCountry('headlines_submarine_researcher').GetName] desenvolveu um design de $HEADLINES_TECH_NAME$ eficaz em combate. #lore Muitas tentativas anteriores de embarcações submersíveis falharam ou provaram ser muito delicadas, agora superadas pelos novos designs avistados em... #!"
+
+
+ notification_headlines_tech_sea_lane_strategies_tooltip:0 "#header $notification_headlines_tech_sea_lane_strategies_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_sea_lane_strategies_desc$"
+ notification_headlines_tech_sea_lane_strategies_name:0 "#b CRUZADORES DOMINAM AS ONDAS #!"
+ notification_headlines_tech_sea_lane_strategies_desc:1 "[SCOPE.sCountry('headlines_sea_lane_strategies_researcher').GetName] desenvolveu $HEADLINES_TECH_NAME$. #lore As novas estratégias de guerra naval exigiram um ritmo acelerado de desenvolvimento de construção naval, com a introdução do... #!"
+
+
+ notification_headlines_tech_automatic_machine_guns_tooltip:0 "#header $notification_headlines_tech_automatic_machine_guns_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_automatic_machine_guns_desc$"
+ notification_headlines_tech_automatic_machine_guns_name:0 "#b UMA ARMA PARA PRESERVAR A PAZ? #!"
+ notification_headlines_tech_automatic_machine_guns_desc:1 "Um inventor [SCOPE.sCountry('headlines_automatic_machine_guns_researcher').GetAdjective] criou $HEADLINES_TECH_NAME$. #lore Capaz de disparar 250 tiros continuamente a 600 tiros por minuto, o inventor afirma que a mera visão da arma causará pânico nas forças opostas, e... #!"
+
+
+ notification_headlines_tech_dreadnought_tooltip:0 "#header $notification_headlines_tech_dreadnought_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_dreadnought_desc$"
+ notification_headlines_tech_dreadnought_name:0 "#b O NAVIO QUE NADA TEME #!"
+ notification_headlines_tech_dreadnought_desc:1 "[SCOPE.sCountry('headlines_dreadnought_researcher').GetName] desenvolveu o $HEADLINES_TECH_NAME$. #lore Impulsionado por novas turbinas e carregando um esplêndido armamento de grandes canhões, o novo navio capital apresenta uma figura temível em alto mar, que certamente... #!"
+
+
+ notification_headlines_tech_chemical_warfare_tooltip:0 "#header $notification_headlines_tech_chemical_warfare_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_chemical_warfare_desc$"
+ notification_headlines_tech_chemical_warfare_name:0 "#b GÁS NO CAMPO DE BATALHA #!"
+ notification_headlines_tech_chemical_warfare_desc:1 "[SCOPE.sCountry('headlines_chemical_warfare_researcher').GetName] desenvolveu $HEADLINES_TECH_NAME$. #lore Os efeitos horríveis de gás químico em alvos humanos já provocaram apelos internacionais para banir o uso de... #!"
+
+
+ notification_headlines_tech_military_aviation_tooltip:0 "#header $notification_headlines_tech_military_aviation_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_military_aviation_desc$"
+ notification_headlines_tech_military_aviation_name:0 "#b VOO MAIS PESADO QUE O AR #!"
+ notification_headlines_tech_military_aviation_desc:1 "Um inventor em [SCOPE.sCountry('headlines_military_aviation_researcher').GetName] demonstrou máquinas voadoras com grande potencial para $HEADLINES_TECH_NAME$. #lore A aeronave multi-asa é propelida para frente através do ar por um conjunto de motores leves, permitindo que a sustentação aerodinâmica seja gerada enquanto... #!"
+
+
+ notification_headlines_tech_flamethrowers_tooltip:0 "#header $notification_headlines_tech_flamethrowers_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_flamethrowers_desc$"
+ notification_headlines_tech_flamethrowers_name:0 "#b FOGO ARMADO #!"
+ notification_headlines_tech_flamethrowers_desc:1 "Engenheiros [SCOPE.sCountry('headlines_flamethrowers_researcher').GetAdjective] desenvolveram $HEADLINES_TECH_NAME$. #lore Embora extremamente perigoso para o usuário, a capacidade de projetar chamas a um alcance de 20 metros mostra grande promessa tática na era de... #!"
+
+
+ notification_headlines_tech_nco_training_tooltip:0 "#header $notification_headlines_tech_nco_training_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_nco_training_desc$"
+ notification_headlines_tech_nco_training_name:0 "#b OFICIAIS MODERNOS PARA BATALHAS MODERNAS #!"
+ notification_headlines_tech_nco_training_desc:1 "Teóricos militares em [SCOPE.sCountry('headlines_nco_training_researcher').GetName] desenvolveram $HEADLINES_TECH_NAME$. #lore A evolução contínua das condições de campo de batalha impulsionou o desenvolvimento de estruturas de unidade mais flexíveis, requerendo... #!"
+
+
+ notification_headlines_tech_carrier_tech_tooltip:0 "#header $notification_headlines_tech_carrier_tech_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_carrier_tech_desc$"
+ notification_headlines_tech_carrier_tech_name:0 "#b FIM DO ENCOURAÇADO? #!"
+ notification_headlines_tech_carrier_tech_desc:1 "[SCOPE.sCountry('headlines_carrier_tech_researcher').GetName] inventou o $HEADLINES_TECH_NAME$. #lore Os novos navios experimentais estão equipados com um grande convés de voo permitindo que um esquadrão inteiro de aeronaves seja lançado num instante, fazendo alguns observadores anunciarem o fim de... #!"
+
+
+ notification_headlines_tech_battleship_tech_tooltip:0 "#header $notification_headlines_tech_battleship_tech_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_battleship_tech_desc$"
+ notification_headlines_tech_battleship_tech_name:0 "#b O SUPER-DREADNOUGHT #!"
+ notification_headlines_tech_battleship_tech_desc:1 "[SCOPE.sCountry('headlines_battleship_tech_researcher').GetName] avançou seus designs de $HEADLINES_TECH_NAME$. #lore As grandes pilhas de canhões carregadas pelo novo navio empalidecem até mesmo as dos dreadnoughts, emparelhadas com capacidades de comando aprimoradas pela integração de... #!"
+
+
+ notification_headlines_tech_mobile_armor_tooltip:0 "#header $notification_headlines_tech_mobile_armor_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_mobile_armor_desc$"
+ notification_headlines_tech_mobile_armor_name:0 "#b 'TANQUES' ATRAVESSAM TRINCHEIRAS #!"
+ notification_headlines_tech_mobile_armor_desc:1 "[SCOPE.sCountry('headlines_mobile_armor_researcher').GetName] desenvolveu $HEADLINES_TECH_NAME$. #lore Embora lentos, barulhentos e propensos a mau funcionamento, os 'navios terrestres' blindados são impermeáveis a armas pequenas e carregam canhões pesados com eles para as linhas de frente, tornando impossível para o inimigo ignorar seu... #!"
+
+
+ notification_headlines_tech_pharmaceuticals_tooltip:0 "#header $notification_headlines_tech_pharmaceuticals_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_pharmaceuticals_desc$"
+ notification_headlines_tech_pharmaceuticals_name:0 "#b DROGAS MARAVILHOSAS CURAM TUDO #!"
+ notification_headlines_tech_pharmaceuticals_desc:1 "Cientistas em [SCOPE.sCountry('headlines_pharmaceuticals_researcher').GetName] desenvolveram $HEADLINES_TECH_NAME$. #lore Com vários novos medicamentos já em produção para várias doenças, a padronização e industrialização de... #!"
+
+
+ notification_headlines_tech_realism_tooltip:0 "#header $notification_headlines_tech_realism_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_realism_desc$"
+ notification_headlines_tech_realism_name:0 "#b O MOVIMENTO REALISTA #!"
+ notification_headlines_tech_realism_desc:1 "Artistas em [SCOPE.sCountry('headlines_realism_researcher').GetName] começaram a adotar $HEADLINES_TECH_NAME$. #lore Uma reação afiada à emoção e drama dos Românticos, os Realistas retratam a vida como ela é, incluindo assuntos anteriormente considerados... #!"
+
+
+ notification_headlines_tech_organized_sports_tooltip:0 "#header $notification_headlines_tech_organized_sports_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_organized_sports_desc$"
+ notification_headlines_tech_organized_sports_name:0 "#b A NOVA LIGA ESPORTIVA NACIONAL #!"
+ notification_headlines_tech_organized_sports_desc:1 "[SCOPE.sCountry('headlines_organized_sports_researcher').GetName] codificou um sistema de $HEADLINES_TECH_NAME$. #lore O governo nacional patrocinou a criação de uma liga oficial, completa com uniformes de equipe exibindo... #!"
+
+
+ notification_headlines_tech_quinine_tooltip:0 "#header $notification_headlines_tech_quinine_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_quinine_desc$"
+ notification_headlines_tech_quinine_name:0 "#b QUININA COMBATE MALÁRIA #!"
+ notification_headlines_tech_quinine_desc:1 "Pesquisadores em [SCOPE.sCountry('headlines_quinine_researcher').GetName] isolaram $HEADLINES_TECH_NAME$. #lore Com a produção em massa da droga antimalária agora viável, a doença que guarda a costa africana foi agora superada, provocando uma nova onda de... #!"
+
+
+ notification_headlines_tech_steel_frame_buildings_tooltip:0 "#header $notification_headlines_tech_steel_frame_buildings_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_steel_frame_buildings_desc$"
+ notification_headlines_tech_steel_frame_buildings_name:0 "#b AÇO - O MATERIAL DE HOJE #!"
+ notification_headlines_tech_steel_frame_buildings_desc:1 "A indústria de construção [SCOPE.sCountry('headlines_steel_frame_buildings_researcher').GetAdjective] desenvolveu $HEADLINES_TECH_NAME$. #lore Como o aço é capaz de suportar tensão muito maior que materiais tradicionais, novos planos de construção apresentando dezenas de andares foram revelados, com... #!"
+
+
+ notification_headlines_tech_mutual_funds_tooltip:0 "#header $notification_headlines_tech_mutual_funds_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_mutual_funds_desc$"
+ notification_headlines_tech_mutual_funds_name:0 "#b A CORRIDA DOS FUNDOS MÚTUOS #!"
+ notification_headlines_tech_mutual_funds_desc:1 "Financistas em [SCOPE.sCountry('headlines_mutual_funds_researcher').GetName] desenvolveram $HEADLINES_TECH_NAME$. #lore O primeiro desses fundos disponibilizados a corretores provocou uma onda de novos investidores impulsionados pelo perfil de risco menor do... #!"
+
+
+ notification_headlines_tech_camera_tooltip:0 "#header $notification_headlines_tech_camera_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_camera_desc$"
+ notification_headlines_tech_camera_name:0 "#b FOTOGRAFIA - PINTURAS INSTANTÂNEAS #!"
+ notification_headlines_tech_camera_desc:1 "Um inventor em [SCOPE.sCountry('headlines_camera_researcher').GetName] criou a $HEADLINES_TECH_NAME$. #lore Num flash de luz brilhante, a realidade é instantaneamente capturada e transferida para uma folha que pode então ser... #!"
+
+
+ notification_headlines_tech_socialism_tooltip:0 "#header $notification_headlines_tech_socialism_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_socialism_desc$"
+ notification_headlines_tech_socialism_name:0 "#b O ESPECTRO ASSOMBRANDO O MUNDO #!"
+ notification_headlines_tech_socialism_desc:1 "Um filósofo em [SCOPE.sCountry('headlines_socialism_researcher').GetName] publicou a teoria do $HEADLINES_TECH_NAME$. #lore Alegando que o mundo inteiro está engajado em uma grande luta de classes, o manifesto pressagia uma derrota final da classe capitalista pelas massas trabalhadoras, seguida por... #!"
+
+
+ notification_headlines_tech_elevator_tooltip:0 "#header $notification_headlines_tech_elevator_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_elevator_desc$"
+ notification_headlines_tech_elevator_name:0 "#b 'ELEVADOR' SUBSTITUI ESCADAS #!"
+ notification_headlines_tech_elevator_desc:1 "Inventores em [SCOPE.sCountry('headlines_elevator_researcher').GetName] começaram a construir $HEADLINES_TECH_NAME$. #lore Um dos inventores demonstrou a segurança do sistema de freio do elevador ficando na plataforma e cortando as cordas com um machado, onde a plataforma... #!"
+
+
+ notification_headlines_tech_zeppelins_tooltip:0 "#header $notification_headlines_tech_zeppelins_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_zeppelins_desc$"
+ notification_headlines_tech_zeppelins_name:0 "#b NAVIOS DO AR #!"
+ notification_headlines_tech_zeppelins_desc:1 "Inventores [SCOPE.sCountry('headlines_zeppelins_researcher').GetAdjective] criaram $HEADLINES_TECH_NAME$. #lore Empalidecendo os designs existentes de balões de ar quente, esses novos dirigíveis usam gás mais leve que o ar para flutuar alto no céu, carregando carga e passageiros para... #!"
+
+
+ notification_headlines_tech_malaria_prevention_tooltip:0 "#header $notification_headlines_tech_malaria_prevention_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_malaria_prevention_desc$"
+ notification_headlines_tech_malaria_prevention_name:0 "#b MALÁRIA DERROTADA #!"
+ notification_headlines_tech_malaria_prevention_desc:1 "[SCOPE.sCountry('headlines_malaria_prevention_researcher').GetName] desenvolveu técnicas eficazes de $HEADLINES_TECH_NAME$. #lore Com a implementação de medicamentos aprimorados e uma maior compreensão da disseminação da doença, até mesmo as regiões internas da África podem agora ser com segurança... #!"
+
+
+ notification_headlines_tech_film_tooltip:0 "#header $notification_headlines_tech_film_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_film_desc$"
+ notification_headlines_tech_film_name:0 "#b IMAGENS EM MOVIMENTO #!"
+ notification_headlines_tech_film_desc:1 "Inventores [SCOPE.sCountry('headlines_film_researcher').GetAdjective] criaram $HEADLINES_TECH_NAME$. #lore Uma audiência maravilhada assistiu enquanto as fotografias pareciam ganhar vida, animadas pelo sequenciamento rápido das... #!"
+
+
+ notification_headlines_tech_paved_roads_tooltip:0 "#header $notification_headlines_tech_paved_roads_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_paved_roads_desc$"
+ notification_headlines_tech_paved_roads_name:0 "#b A ERA DO AUTOMÓVEL #!"
+ notification_headlines_tech_paved_roads_desc:1 "[SCOPE.sCountry('headlines_paved_roads_researcher').GetName] desenvolveu $HEADLINES_TECH_NAME$. #lore À medida que novos designs de automóveis tornaram-se mais baratos e populares, a abertura das mais novas estradas pavimentadas projetadas especificamente para uso por carros certamente... #!"
+
+
+ notification_headlines_tech_antibiotics_tooltip:0 "#header $notification_headlines_tech_antibiotics_name$#!\n$TOOLTIP_DELIMITER$\n$notification_headlines_tech_antibiotics_desc$"
+ notification_headlines_tech_antibiotics_name:0 "#b A REVOLUÇÃO DOS ANTIBIÓTICOS #!"
+ notification_headlines_tech_antibiotics_desc:1 "Pesquisadores em [SCOPE.sCountry('headlines_antibiotics_researcher').GetName] inventaram $HEADLINES_TECH_NAME$. #lore O isolamento e produção de Penicilina já provaram ser miraculosos em testes, curando doenças fatais que anteriormente eram... #!"
+
+
+
+
+
+
+# * denota Tecnologias Importantes que estão em seu próprio grupo de mensagens
+
+##Tecnologias de Produção
+#Processo Bessemer
+#Vidro Cristal
+#Fermento em Pó
+#Nitroglicerina
+#Fertilizante Aprimorado
+#Burro a Vapor
+#Dinamite
+#Vagões Ferroviários de Aço
+#Mastigação de Borracha*
+#Bombas de Petróleo*
+#Geração Elétrica*
+#Anilina
+#Vulcanização
+#Fixação de Nitrogênio
+#Agricultura Mecanizada
+#Plásticos*
+#Turbina a Vapor
+#Motor a Combustão*
+#Telefone*
+#Seda Artificial
+#Ferrovias Elétricas*
+#Rádio*
+#Pasteurização
+#Soldagem por Arco*
+#Turbina a Óleo
+#Ignição por Compressão
+#Rolos de Massa
+
+##Tecnologias Militares
+#Rifles
+#Artilharia de Carregamento pela Culatra
+#Rifles de Repetição
+#Enfermagem Moderna
+#Guindastes Pórtico
+#Couraçado*
+#Metralhadora Manual*
+#Rifle de Ferrolho
+#Trabalhos de Trincheira*
+#Destroyer*
+#Submarino*
+#Estratégia de Rotas Marítimas*
+#Metralhadoras Automáticas*
+#Dreadnought*
+#Guerra Química*
+#Aviação Militar*
+#Lança-chamas
+#Treinamento de Suboficiais*
+#Porta-aviões*
+#Encouraçado*
+#Blindagem Móvel*
+
+##Tecnologias Sociais
+#Farmacêuticos
+#Realismo
+#Esportes Organizados
+#Quinina*
+#Edifícios com Estrutura de Aço*
+#Fundos Mútuos
+#Câmera
+#Socialismo*
+#Elevadores
+#Zepelins
+#Prevenção da Malária*
+#Filme
+#Estradas Pavimentadas
+#Antibióticos

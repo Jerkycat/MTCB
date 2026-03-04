@@ -1,0 +1,44 @@
+﻿l_braz_por:
+
+stts_press_tour: "Turnê de Imprensa"
+stts_press_tour_info: "A cobertura favorável da imprensa aumentará temporariamente a [concept_popularity] de [Character.GetFullName]."
+stts_smear_campaign: "Campanha de Difamação"
+stts_smear_campaign_info: "Espalhar boatos e acusações contra [Character.GetFullName] reduzirá temporariamente sua [concept_popularity]."
+stts_no_current_press_tour: "Já não é foco de uma campanha de imprensa"
+stts_found_movement: "Fundar Movimento"
+stts_found_movement_info: "[Character.GetFullName] criará um [concept_political_movement] baseado em sua [concept_ideology]."
+stts_spread_social_idea: "Espalhar Ideias"
+stts_spread_social_idea_info: "[Character.GetFullName] espalhará conhecimentos de [concept_technology] Social fundamentais a sua [concept_ideology]."
+stts_enforce_party_discipline: "Impor Disciplina Partidária"
+stts_enforce_party_discipline_info: "Coagir [Character.GetFullName] a adotar a [concept_ideology] do partido."
+stts_send_paramilitaries: "Ataque Paramilitar"
+stts_send_paramilitaries_info: "Envie milicianos armados para atacar [Character.GetFullName]."
+paramilitaries_fail: "[Character.GetFullName] escapou ileso"
+
+notification_stts_party_discipline_success_name: "Disciplina Partidária Aplicada"
+notification_stts_party_discipline_success_desc: "[SCOPE.sCharacter('relevant_character').GetFullName] cedeu e agora apoia a linha partidária [SCOPE.sCharacter('relevant_character').GetIdeology.GetName]."
+notification_stts_party_discipline_success_tooltip: "#header $notification_stts_party_discipline_success_name$#!\n$TOOLTIP_DELIMITER$\n$notification_stts_party_discipline_success_desc$"
+
+notification_stts_party_discipline_failure_name: "Disciplina Partidária Resistida"
+notification_stts_party_discipline_failure_desc: "[SCOPE.sCharacter('relevant_character').GetFullName] repreendeu nossa interferência e mobilizou [SCOPE.sCharacter('relevant_character').GetInterestGroup.GetName] em seu apoio."
+notification_stts_party_discipline_failure_tooltip: "#header $notification_stts_party_discipline_failure_name$#!\n$TOOLTIP_DELIMITER$\n$notification_stts_party_discipline_failure_desc$"
+
+notification_stts_paramilitaries_fought_off_name: "[SCOPE.sCharacter('relevant_character').GetFullName] Luta!"
+notification_stts_paramilitaries_fought_off_desc: "[SCOPE.sCharacter('relevant_character').GetFullName] e seus apoiadores repeliram um ataque políticamente motivado."
+notification_stts_paramilitaries_fought_off_tooltip: "#header $notification_stts_paramilitaries_fought_off_name$#!\n$TOOLTIP_DELIMITER$\n$notification_stts_paramilitaries_fought_off_desc$"
+
+notification_stts_paramilitaries_escaped_name: "[SCOPE.sCharacter('relevant_character').GetFullName] Escapa Ileso"
+notification_stts_paramilitaries_escaped_desc: "[SCOPE.sCharacter('relevant_character').GetFullName] evadiu ataques de forças paramilitares."
+notification_stts_paramilitaries_escaped_tooltip: "#header $notification_stts_paramilitaries_escaped_name$#!\n$TOOLTIP_DELIMITER$\n$notification_stts_paramilitaries_escaped_desc$"
+
+notification_stts_paramilitaries_wounded_name: "[SCOPE.sCharacter('relevant_character').GetFullName] Ferido"
+notification_stts_paramilitaries_wounded_desc: "[SCOPE.sCharacter('relevant_character').GetFullName] foi ferido(a) gravemente por seus adversários políticos."
+notification_stts_paramilitaries_wounded_tooltip: "#header $notification_stts_paramilitaries_wounded_name$#!\n$TOOLTIP_DELIMITER$\n$notification_stts_paramilitaries_wounded_desc$"
+
+notification_stts_paramilitaries_exiled_name: "[SCOPE.sCharacter('relevant_character').GetFullName] Foge"
+notification_stts_paramilitaries_exiled_desc: "[SCOPE.sCharacter('relevant_character').GetFullName] fugiu em [concept_exile] para evitar ataques paramilitares contra si."
+notification_stts_paramilitaries_exiled_tooltip: "#header $notification_stts_paramilitaries_exiled_name$#!\n$TOOLTIP_DELIMITER$\n$notification_stts_paramilitaries_exiled_desc$"
+
+notification_stts_paramilitaries_killed_name: "[SCOPE.sCharacter('relevant_character').GetFullName] Morto"
+notification_stts_paramilitaries_killed_desc: "[SCOPE.sCharacter('relevant_character').GetFullName] foi morto num ataque brutal realizado por paramilitares armados."
+notification_stts_paramilitaries_killed_tooltip: "#header $notification_stts_paramilitaries_killed_name$#!\n$TOOLTIP_DELIMITER$\n$notification_stts_paramilitaries_killed_desc$"

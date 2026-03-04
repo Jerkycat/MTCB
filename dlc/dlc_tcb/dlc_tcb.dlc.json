@@ -1,0 +1,21 @@
+{
+	"id":
+	{
+		"steam": "529340",
+		"paradox": "dlc_tcb"
+	},
+	"displayName":
+	{
+		"en": "dlc_tcb"
+	},
+	"category":
+	{
+		"en": "dlc_tcb_plus"
+	},
+	"description":
+	{
+		"en": "dlc_tcb"
+	},
+	"thumbnailPath": "thumbnail.png",
+	"thirdPartyContent": true
+}

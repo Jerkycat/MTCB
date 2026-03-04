@@ -1,0 +1,5 @@
+﻿l_braz_por:
+ rbd_promulgated_law: "Governo por Decreto"
+ rbd_promulgate_law: "Promulgar Lei"
+ country_rbd_can_promulgate_laws: "Pode Promulgar Leis"
+ country_rbd_can_promulgate_laws_desc: "Pode usar a Interação de Personagem #bold Promulgar Lei#! para aprovar instantaneamente uma [concept_law] que atingiu a Fase 2 de promulgação, se o [concept_ruler] ou uma [concept_revolution] a apoiar."

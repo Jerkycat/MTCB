@@ -1,0 +1,61 @@
+﻿l_braz_por:
+ blight.1.t: "Praga da Batata"
+ blight.1.d: "Uma doença devastadora atingiu as plantações de batata pela Costa Leste, tornando grande parte da colheita incomível. Muitos #yellow $peasants$#! pobres, que são fortemente dependentes de batatas, foram forçados a buscar ajuda para alimentar suas famílias."
+ blight.1.f: ""As folhas das batatas em muitos campos por onde passei estavam bastante murchas, e um cheiro estranho, como eu nunca tinha sentido antes, mas que rapidamente se tornou uma característica bem conhecida da "praga", preenchia a atmosfera adjacente a cada campo de batatas."" #William Trench
+ blight.1.a: "Lamentável."
+
+ blight.2.t: "Praga da Batata"
+ blight.2.d: "Uma doença devastadora atingiu as plantações de batata por toda a Europa, tornando grande parte da colheita incomível. Muitos #yellow $peasants$#! pobres, que são fortemente dependentes de batatas, foram forçados a buscar ajuda para alimentar suas famílias."
+ blight.2.f: ""As folhas das batatas em muitos campos por onde passei estavam bastante murchas, e um cheiro estranho, como eu nunca tinha sentido antes, mas que rapidamente se tornou uma característica bem conhecida da "praga", preenchia a atmosfera adjacente a cada campo de batatas."" #William Trench
+ blight.2.a: "Lamentável."
+
+ blight.3.t: "A Grande Fome"
+ blight.3.d: "Uma onda de Praga da Batata aleijou a espinha dorsal da subsistência na Irlanda e nas [GetStateRegion('STATE_HIGHLANDS').GetName] escocesas, com mais de 80% da colheita sendo tornada incomível. Fome em massa dos [GetPopType('peasants').GetName] nessas regiões é iminente, exigindo atenção imediata do governo [ROOT.GetCountry.GetAdjective]."
+ blight.3.f: ""Neste exato dia um grito de Fome, mais selvagem e mais terrível que nunca, está se erguendo de cada paróquia e condado na terra. Onde a nova colheita deveria estar, há uma massa repugnante de putrefação: o único alimento com que milhões de homens, mulheres e crianças serão alimentados está atingido por uma praga mortal diante de seus olhos; e provavelmente dentro de um mês esses milhões estarão com fome e não terão nada para comer."" #The Nation
+ blight.3.a: "A fome chegou à nossa porta."
+ blight.3.a.tt: "Nossa resposta à crise impactará os efeitos de longo prazo da fome na população [GetCulture('irish').GetName]."
+
+ blight.4.t: "Colheita de Grãos Pobre"
+ blight.4.d: "As colheitas de Trigo e Centeio deste ano provaram ser menores que o esperado, levando a um aumento nos preços de @grain! Grãos. Para os #yellow $peasants$#! pobres já lutando para sobreviver, este revés pode provar ser fatal."
+ blight.4.f: ""As crianças eram como esqueletos, seus traços afiados pela fome e seus membros consumidos, de modo que sobrava pouco além de ossos, suas mãos e braços, em particular, estavam muito emaciados, e a expressão feliz da infância havia desaparecido de seus rostos, deixando o olhar ansioso de velhice prematura."" #William Forster
+ blight.4.a: "Esperançosamente a do ano que vem será melhor."
+
+ blight.5.t: "Fugindo da Fome"
+ blight.5.d: "Com a Irlanda presa pela fome e pobreza, aqueles [SCOPE.sCulture('irish_scope').GetName] com meios para fazê-lo começaram a fugir do país em massa a bordo de navios com destino a Liverpool, Nova York, Boston - qualquer lugar menos a Irlanda. Muitas famílias pobres juntaram seus fundos miseráveis para enviar seus filhos e filhas em busca de perspectivas mais brilhantes."
+ blight.5.f: ""Em cada porto marítimo na Irlanda agora estão se aglomerando milhares de fazendeiros, com suas famílias, que escolheram deixar suas terras não cultivadas e não semeadas, vender cavalos e gado e transformar tudo em dinheiro para ir para a América, levando tanto o dinheiro quanto a indústria que o criou, e deixando uma massa mais desamparada de miséria e desespero atrás deles."" #The Nation
+ blight.5.a: "Desejamos-lhes viagens seguras."
+ blight.5.b: "Encorajar mais irlandeses a deixar nossas costas."
+ blight.5.c: "Precisamos desses trabalhadores para nossa economia!"
+
+ blight.6.t: "Exportando Alimentos Irlandeses"
+ blight.6.d: "Mesmo enquanto a fome domina a ilha, muitos produtos alimentícios continuam sendo exportados da Irlanda para serem vendidos no mercado [ROOT.GetCountry.GetAdjective] mais amplo e além. O governo foi implorado a intervir e redirecionar o suprimento de alimentos local para evitar a fome."
+ blight.6.f: ""A Irlanda deve em troca contemplar sua melhor farinha, seu trigo, seu bacon, sua manteiga, seu gado vivo, tudo indo para a Inglaterra dia após dia. Ela não ousa perguntar a causa desta discrepância fatal – a existência de fome em um país, cuja commodity básica é comida – comida – comida da melhor – e da qualidade mais requintada."" #The Chronicle and Munster Advertiser
+ blight.6.a: "Essa comida é propriedade privada. Não interferiremos."
+ blight.6.b: "Os [SCOPE.sCulture('irish_scope').GetName] devem ser alimentados."
+
+ blight.7.t: "Doações para a Irlanda"
+ blight.7.d: "Conforme a notícia da terrível situação na Irlanda se espalhou pelo mundo, também fluiu a caridade. Muitas associações [ROOT.GetCountry.GetAdjective] reuniram fundos para ajudar a ilha atingida, incluindo uma doação pessoal de [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetLastName], somando-se a doações estrangeiras de lugares tão distantes quanto Rússia, Turquia e Austrália. Até a Nação Choctaw na América enviou uma pequena quantia para ajudar o povo [SCOPE.sCulture('irish_scope').GetName]."
+ blight.7.f: ""Sua Majestade a Rainha imediatamente determinou que seu nome fosse colocado no topo de uma lista de doadores para uma contribuição de £2.000, com uma promessa muito graciosa de tal quantia adicional conforme a exigência pudesse demandar."" #Associação Britânica para o Alívio da Extrema Aflição na Irlanda e nas Highlands da Escócia
+ blight.7.a: "Um testemunho da generosidade [ROOT.GetCountry.GetAdjective]."
+
+ blight.8.t: "Tomando a Sopa"
+ blight.8.d: "Organizações cristãs de todas as denominações estabeleceram cozinhas de sopa por toda a Irlanda para dar o que puderem de comida à população faminta. Algumas instituições de caridade anglicanas ardentes recusaram dar ajuda a qualquer [SCOPE.sReligion('catholic_scope').GetName] que não renunciasse ao Papa. Enquanto a maioria das cozinhas de sopa dá livremente, histórias de "soupeiros" trocando suas almas por comida se espalharam pela ilha. Alguns escolheram passar fome em vez de aceitar sopa de qualquer esforço [SCOPE.sReligion('protestant_scope').GetName]."
+ blight.8.f: ""Essa sopa pode te encher, mas a que custo? Suas almas serão acorrentadas por toda a eternidade! Muitos foram levados pela febre e pela fome, mas eles estão com o Senhor agora. Pegue essa sopa e você irá para o Inferno, e será condenado para sempre!"" #Black 47
+ blight.8.a: "Eles realmente recusarão ajuda por tais rumores?"
+ blight.8.b: "Qualquer irlandês buscando ajuda deve aceitar as [SCOPE.gsInterestGroup('devout_ig').GetName]!"
+
+ irish_famine_deepen: "Os efeitos duradouros da Fome Irlandesa serão piores."
+ irish_famine_deepen_double: "Os efeitos duradouros da Fome Irlandesa serão muito piores."
+ irish_famine_ease: "Os efeitos duradouros da Fome Irlandesa serão menos ruins."
+
+
+ je_irish_famine: "A Fome Irlandesa"
+ je_irish_famine_reason: "A destruição da colheita de batata precipitou um colapso completo no suprimento de alimentos da Irlanda. Fome e miséria dominam a ilha. Uma resposta governamental é exigida, mas o Parlamento está dividido sobre a maneira e grau de ajuda a ser dada."
+ irish_famine_over: "A Praga da Batata seguiu seu curso."
+
+ irish_famine_subsidize_grain_shipments: "Subsidiar Remessas de Grãos"
+ irish_famine_subsidize_grain_shipments_desc: "O governo tem o dever de usar seus recursos para alimentar o povo faminto da Irlanda."
+ irish_famine_enforce_workhouse_reqs: "Impor Requisitos da Casa de Trabalho"
+ irish_famine_enforce_workhouse_reqs_desc: "Não podemos simplesmente distribuir alívio a vagabundos que se recusam a lavrar sua terra. Qualquer irlandês que queira nossa ajuda deve provar ser totalmente miserável."
+ irish_famine_promote_malthus: "Promover Malthusianismo"
+ irish_famine_promote_malthus_desc: "Esta fome é na verdade uma bênção para a sociedade. Eliminar os irlandeses preguiçosos aliviará o fardo sobre o resto de nós."

@@ -1,0 +1,37 @@
+﻿l_braz_por:
+
+#Ferdinand-Philippe
+ canon_death.1.t:0 "Acidente Trágico"
+ canon_death.1.d:0 "Ferdinand-Philippe foi gravemente ferido em um acidente de carruagem. Não está claro se ele sobreviveu ao incidente."
+ canon_death.1.f:0 ""Em 13 de julho de 1842, Ferdinand-Philippe estava a caminho do Castelo Neuilly perto de Paris para visitar parentes antes de partir para uma inspeção militar em Saint-Omer. Próximo a Porte Maillot, o cocheiro perdeu o controle da carruagem aberta quando seus dois cavalos dispararam, e ele caiu violentamente no pavimento. Ele não recuperou a consciência.""
+ canon_death.1.a:0 "Por favor, acorde…"
+
+#Tsesarevich Nikolai
+ canon_death.2.t:0 "[SCOPE.sCharacter('canonically_dead_2').GetName] Está Gravemente Enfermo"
+ canon_death.2.d:0 "[SCOPE.sCharacter('canonically_dead_2').GetName] está acamado após contrair uma doença não identificada. Sua saúde está se deteriorando rapidamente, e não está claro se ele sobreviverá."
+ canon_death.2.f:0 ""[SCOPE.sCharacter('canonically_dead_2').GetName] estava em uma turnê no exterior quando repentinamente adoeceu. Inicialmente foi ignorado enquanto ele continuava suas viagens. No entanto, a condição piorou quando uma hemorragia cerebral deixou um lado de seu corpo temporariamente paralisado. O resto da família real está a caminho para visitá-lo, talvez pela última vez.""
+ canon_death.2.a:0 "Notícias devastadoras!"
+
+#Rudolf von Habsburg
+ canon_death.3.t:0 "Mistério em Mayerling"
+ canon_death.3.d:0 "Rudolf von Habsburg foi encontrado morto no pavilhão de caça de Mayerling sob circunstâncias misteriosas. Uma investigação está em andamento para descobrir a verdade por trás do incidente."
+ canon_death.3.f:0 ""O jovem de 30 anos foi encontrado morto ao lado de sua amante, no que parece ser um pacto de suicídio. Seu casamento tumultuado, problemas de saúde mental, bem como fatores políticos são acreditados estar no cerne da morte prematura de Rudolf. O chocante incidente abalou a família Habsburg até o seu âmago.""
+ canon_death.3.a:0 "Oh, o horror!"
+
+#Albert 01
+ canon_death.4.t:0 "A Morte de Eddie"
+ canon_death.4.d:0 "Albert Victor, popularmente conhecido como Eddie, morreu após uma infecção de gripe ter se desenvolvido em pneumonia fatal. Sua morte foi profundamente sentida em toda a terra, e foi seguida por uma enorme manifestação de luto nacional."
+ canon_death.4.f:0 ""Em 14 de janeiro de 1892, o país foi atordoado pela notícia de que S.A.R. [Title] Albert Victor, popularmente conhecido como Eddie, havia morrido em Sandringham House, em Norfolk. A morte mergulha milhões de todas as idades, classes e raças neste reino, e muito além de seus limites, em uma tristeza de agudeza profunda, e na mais viva simpatia pela família Real, que nesta hora está tão severamente atingida. A repentinidade disso, a tristeza disso, a piedade disso – esta morte súbita de Eddie.""
+ canon_death.4.a:0 "Seja feita a vontade de Deus…"
+
+#Maria 02
+ canon_death.5.t:0 "O Último Filho de Maria"
+ canon_death.5.d:0 "Maria, Rainha de Portugal está enfrentando complicações ao dar à luz seu décimo primeiro filho. É incerto se ela sobreviverá ao procedimento."
+ canon_death.5.f:0 ""Após uma sucessão de gestações difíceis, os médicos a alertaram sobre os riscos que ela poderia enfrentar em suas futuras gestações. A Rainha Maria, no entanto, recebeu o conselho com total indiferença e lhes disse: se eu morrer, morro no meu posto.""
+ canon_death.5.a:0 "Deus está com nossa boa mãe…"
+ 
+#Pedro 05
+ canon_death.6.t:0 "Jovem Pedro"
+ canon_death.6.d:0 "Sua majestade o Rei Pedro está doente. Uma epidemia recente atingiu o círculo real, tirando as vidas de alguns membros da família real. O Rei é forte, mas não está claro se ele sobreviverá."
+ canon_death.6.f:0 ""Aos 24 anos de idade, o jovem monarca português agora morre de uma doença terrível, após uma vida marcada por problemas, enquanto um de seus irmãos recém-falecidos ainda jaz sem caixão, e um terceiro dos irmãos está prostrado com a mesma doença.""
+ canon_death.6.a:0 "Apenas os bons morrem jovens…"

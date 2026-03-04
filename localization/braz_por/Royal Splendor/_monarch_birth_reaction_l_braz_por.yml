@@ -1,0 +1,132 @@
+﻿l_braz_por:
+
+#Afghanistan
+ afg_monarch_birth.1.a:0 "Uma ocasião memorável."
+ afg_monarch_birth.2.a:0 "Uma ocasião memorável."
+ afg_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Austria
+ aus_monarch_birth.1.a:0 "Uma ocasião memorável."
+ aus_monarch_birth.2.a:0 "Uma ocasião memorável."
+ aus_monarch_birth.3.a:0 "Uma ocasião memorável."
+ aus_monarch_birth.4.a:0 "Uma ocasião memorável."
+ aus_monarch_birth.5.a:0 "Uma ocasião memorável."
+
+#Baden
+ bad_monarch_birth.1.a:0 "Uma ocasião memorável."
+
+#Bavaria
+ bav_monarch_birth.1.a:0 "Uma ocasião memorável."
+ bav_monarch_birth.2.a:0 "Uma ocasião memorável."
+ bav_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Belgium
+ bel_monarch_birth.1.a:0 "Uma ocasião memorável."
+ bel_monarch_birth.2.a:0 "Uma ocasião memorável."
+ bel_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Denmark
+ den_monarch_birth.1.a:0 "Uma ocasião memorável."
+ den_monarch_birth.2.a:0 "Uma ocasião memorável."
+ den_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#France Bonaparte
+fra_bonaparte_monarch_birth.1.a:0 "Uma ocasião memorável."
+fra_bonaparte_monarch_birth.2.a:0 "Uma ocasião memorável."
+
+#France Orleans
+fra_orleans_monarch_birth.1.a:0 "Uma ocasião memorável."
+fra_orleans_monarch_birth.2.a:0 "Uma ocasião memorável."
+fra_orleans_monarch_birth.3.a:0 "Uma ocasião memorável."
+fra_orleans_monarch_birth.4.a:0 "Uma ocasião memorável."
+fra_orleans_monarch_birth.5.a:0 "Uma ocasião memorável."
+
+#Great Britain
+ gbr_monarch_birth.1.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.2.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.3.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.4.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.5.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.6.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.7.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.8.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.9.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.10.a:0 "Uma ocasião memorável."
+ gbr_monarch_birth.11.a:0 "Uma ocasião memorável."
+
+#Hannover
+ han_monarch_birth.1.a:0 "Uma ocasião memorável."
+ han_monarch_birth.2.a:0 "Uma ocasião memorável."
+ han_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Netherlands
+ net_monarch_birth.1.a:0 "Uma ocasião memorável."
+ net_monarch_birth.2.a:0 "Uma ocasião memorável."
+
+#Persia
+ per_monarch_birth.1.a:0 "Uma ocasião memorável."
+ per_monarch_birth.2.a:0 "Uma ocasião memorável."
+ per_monarch_birth.3.a:0 "Uma ocasião memorável."
+ per_monarch_birth.4.a:0 "Uma ocasião memorável."
+
+#Portugal
+ por_monarch_birth.1.a:0 "Uma ocasião memorável."
+ por_monarch_birth.2.a:0 "Uma ocasião memorável."
+ por_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Prussia
+ pru_monarch_birth.1.a:0 "Uma ocasião memorável."
+ pru_monarch_birth.2.a:0 "Uma ocasião memorável."
+ pru_monarch_birth.3.a:0 "Uma ocasião memorável."
+ pru_monarch_birth.4.a:0 "Uma ocasião memorável."
+ pru_monarch_birth.5.a:0 "Uma ocasião memorável."
+ pru_monarch_birth.6.a:0 "Uma ocasião memorável."
+ pru_monarch_birth.7.a:0 "Uma ocasião memorável."
+ pru_monarch_birth.8.a:0 "Uma ocasião memorável."
+ pru_monarch_birth.9.a:0 "Uma ocasião memorável."
+
+#Russia
+ rus_monarch_birth.1.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.2.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.3.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.4.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.5.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.6.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.7.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.8.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.9.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.10.a:0 "Uma ocasião memorável."
+ rus_monarch_birth.11.a:0 "Uma ocasião memorável."
+
+#Sardinia
+ sar_monarch_birth.1.a:0 "Uma ocasião memorável."
+ sar_monarch_birth.2.a:0 "Uma ocasião memorável."
+ sar_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Saxony
+ sax_monarch_birth.1.a:0 "Uma ocasião memorável."
+ sax_monarch_birth.2.a:0 "Uma ocasião memorável."
+
+#Two Sicilies
+ sic_monarch_birth.1.a:0 "Uma ocasião memorável."
+ sic_monarch_birth.2.a:0 "Uma ocasião memorável."
+ sic_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Spain
+ spa_monarch_birth.1.a:0 "Uma ocasião memorável."
+ spa_monarch_birth.2.a:0 "Uma ocasião memorável."
+ spa_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Sweden
+ swe_monarch_birth.1.a:0 "Uma ocasião memorável."
+ swe_monarch_birth.2.a:0 "Uma ocasião memorável."
+ swe_monarch_birth.3.a:0 "Uma ocasião memorável."
+
+#Turkey
+ tur_monarch_birth.1.a:0 "Uma ocasião memorável."
+ tur_monarch_birth.2.a:0 "Uma ocasião memorável."
+ tur_monarch_birth.3.a:0 "Uma ocasião memorável."
+ tur_monarch_birth.4.a:0 "Uma ocasião memorável."
+
+#Wurttemberg
+ wur_monarch_birth.1.a:0 "Uma ocasião memorável."

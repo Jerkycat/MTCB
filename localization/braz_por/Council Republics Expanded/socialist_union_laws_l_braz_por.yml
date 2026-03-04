@@ -1,0 +1,17 @@
+﻿l_braz_por:
+
+ law_sul_syndicalism: "Sindicalismo"
+ law_sul_syndicalism_desc: "Uma forma de associação trabalhista onde sindicatos industriais assumiram controle sobre o estado e a economia."
+ law_sul_party_unions: "Sindicatos Partidários"
+ law_sul_party_unions_desc: "Associações trabalhistas são diretamente organizadas pelo estado, agindo para implementar política oficial e educar membros sobre ideologia partidária."
+
+ sul_trade_unions_vanguardist_communist: "A [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] terá muito mais probabilidade de gerar personagens [GetIdeology('ideology_communist').GetName] e [GetIdeology('ideology_vanguardist').GetName]."
+ sul_trade_unions_anarchist_communist: "A [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] terá muito mais probabilidade de gerar personagens [GetIdeology('ideology_communist').GetName] e [GetIdeology('ideology_anarchist').GetName]."
+
+ sul_events.1.t: "Sindicalismo Revolucionário"
+ sul_events.1.d: "Com nosso estabelecimento de uma [GetLawType('law_council_republic').GetName], a velha relação entre [GetLawGroup('lawgroup_labour_associations').GetName] e seus locais de trabalho está sendo totalmente virada de cabeça para baixo. A [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] agora se encontra em águas desconhecidas, pois qual é o papel de um sindicato quando os patrões foram derrotados?"
+ sul_events.1.f: ""Em vez do lema conservador, "Um salário justo por um dia justo de trabalho," devemos inscrever em nossa bandeira a palavra de ordem revolucionária, "Abolição do sistema de salários." O exército da produção deve ser organizado, não apenas para a luta cotidiana com capitalistas, mas também para levar adiante a produção quando o capitalismo tiver sido derrubado."" #Preâmbulo da Constituição da IWW
+ sul_events.1.a: "Liberdade para os sindicatos significa liberdade para os trabalhadores!"
+ sul_events.1.b: "Sindicatos industriais são a estrutura de uma nova sociedade!"
+ sul_events.1.c: "Os sindicatos se tornarão escolas de comunismo!"
+ sul_events.1.e: "Todo poder aos conselhos!"

@@ -1,0 +1,69 @@
+﻿l_braz_por:
+
+ council_republic_secured: "Completou o [concept_journal_entry] #Bold Revolução Popular#!"
+
+ je_group_cre_socialism: "Socialismo"
+
+ je_cre_red_intelligentsia: "Materialismo Histórico"
+ je_cre_red_intelligentsia_reason: "O advento de nossa [GetLawType('law_council_republic').GetName] anuncia uma nova era na progressão da história. No passado, a [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] esteve na vanguarda do pensamento político, mas agora é sua vez de se adaptar à nova realidade. Dado tempo e os incentivos certos, a nova geração de [GetPopType('academics').GetName] será [GetIdeology('ideology_socialist').GetName]."
+
+ cre_red_intelligentsia_bar: "Teórica"
+ cre_red_intelligentsia_bar_desc: "Progresso: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/60)"
+ intelligentsia_approval: "[concept_approval] da [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]"
+ intelligentsia_in_government: "[GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_in_government]"
+ intelligentsia_clout: "[concept_clout] da [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]"
+ socialist_intelligentsia_leader: "[concept_leader] [GetIdeology('ideology_socialist').GetName] da [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]"
+ progress_bar_complete: "A #bold Barra de Progresso#! atingiu 100%"
+ cre_purge_academia_button: "Expurgar Academia"
+ cre_purge_academia_button_desc: "Intelectuais burgueses são inimigos da revolução que devem ser removidos para que uma academia socialista apropriada possa florescer."
+ je_cre_nomenklatura_develop: "A Nova Classe"
+ je_cre_nomenklatura_develop_reason: "Nossa revolução de cima para baixo criou muitas novas posições para [GetPopType('bureaucrats').GetName] dentro do aparato estatal. Não demorará muito até que a [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] se acostume ao status elevado que lhes foi concedido."
+ cre_nomenklatura_bar: "Desenvolvimento da Nomenklatura"
+ cre_nomenklatura_bar_desc: "Progresso: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/60)"
+ je_cre_managerial_revolution: "A Revolução Gerencial"
+ je_cre_managerial_revolution_reason: "A transformação da economia deixa pouco espaço para a antiga [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] como eles se entendiam. [GetPopType('shopkeepers').GetName] e [GetPopType('clerks').GetName] agora se encontram colocados em posições gerenciais em nossas indústrias, posições que aumentaram muito seu status e [concept_sol]. Com o tempo, esta classe de gerentes irá se unir em um [concept_interest_group] distinto e adotará uma nova [concept_ideology] para combinar."
+ cre_pb_into_managers_bar: "Consciência Gerencial"
+ cre_pb_into_managers_bar_desc: "Progresso: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)"
+ pb_approval: "[concept_approval] da [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant]"
+ pb_in_government: "[GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_in_government]"
+ socialist_pb_leader: "[concept_leader] Socialista da [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant]"
+ average_sol_for_primary_cultures: "[concept_sol] das [concept_primary_cultures]"
+
+ new_executives_cooperative: "Novos [Concept('concept_executive', '$concept_executives$')] pertencentes à [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] e à [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] serão eleitos para nossas [Concept('concept_company', '$concept_companies$')]"
+ new_executives_command_eco: "Novos [Concept('concept_executive', '$concept_executives$')] pertencentes à [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] e à [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] serão nomeados para nossas [Concept('concept_company', '$concept_companies$')]"
+ first_council_republic_established: "Como a primeira [GetLawType('law_council_republic').GetName] bem-sucedida, movimentos socialistas ao redor do mundo olharão para nosso exemplo"
+
+ je_cre_communist_utopia: "O Reino da Liberdade"
+ je_cre_communist_utopia_reason: "[ROOT.GetCountry.GetName] se colocou em um caminho para alcançar a forma mais elevada do comunismo, onde o crescimento das forças produtivas permitirá que as fontes da riqueza social fluam abundantemente. Cada pessoa será capacitada a buscar seu próprio desenvolvimento livre e empregar seus trabalhos criativos para o benefício da sociedade.\n\n#italic De cada um de acordo com sua capacidade, a cada um de acordo com suas necessidades!#!"
+ minimum_sol_25: "Nenhum [concept_pop] em [ROOT.GetCountry.GetNameNoFlag] tem [concept_sol] menor que 25\n[GetScriptedGui('je_cre_communist_utopia_lowest_sol_pop').ExecuteTooltip(GuiScope.SetRoot(ROOT.GetCountry.MakeScope).End)]"
+ LOWEST_SOL_POP: "(Mais baixo atual: [SCOPE.sPop('lowest_sol_pop').GetName] em [SCOPE.sPop('lowest_sol_pop').GetState.GetName])"
+ no_peasants_aristocrats_capitalists_slaves: "[ROOT.GetCountry.GetNameNoFlag] não tem [GetPopType('aristocrats').GetName], [GetPopType('capitalists').GetName], [GetPopType('peasants').GetName], ou [GetPopType('slaves').GetName]"
+
+ je_cre_world_revolution: "Revolução Mundial"
+ je_cre_world_revolution_reason: "Enquanto o capitalismo global permanecer existindo, todos os países socialistas estão sob ameaça de aniquilação. A burguesia de cada nação deve ser derrubada, por revolução ou intervenção."
+ is_great_power: "é uma [concept_great_power]"
+ je_cre_workers_of_the_world: "Proletários de Todas as Nações"
+ je_cre_workers_of_the_world_reason: "Desde sua concepção mais inicial, o movimento socialista tem sido internacionalista e anti-imperialista. Se devemos verdadeiramente abraçar nossos ideais declarados, devemos construir uma sociedade na qual trabalhadores de todo o mundo possam encontrar seu lugar."
+ no_subjects: "[ROOT.GetCountry.GetNameNoFlag] não tem [Concept('concept_subject', '$concept_subjects$')]"
+ 5_percent_iberian: "5% dos [Concept('concept_pop', '$concept_pops$')] falantes de [GetCulture('iberian').GetLanguageTrait.GetTraitGroup.GetName] irão assimilar na [concept_culture] [GetCulture('iberian').GetName]"
+
+ je_cre_bread_and_roses: "Pão e Rosas"
+ je_cre_bread_and_roses_reason: "Reforma, não [concept_revolution], é o caminho mais seguro para um mundo melhor. Através de intervenção governamental concentrada, podemos garantir democracia e igualdade social para o povo de [ROOT.GetCountry.GetNameNoFlag]."
+
+ cre_five_year_plan_extension_button: "Estender o Plano"
+ cre_five_year_plan_extension_button_desc: "Infelizmente, devido a circunstâncias atenuantes, a conclusão do Plano Quinquenal levará mais de cinco anos."
+ cre_five_year_plan_shock_work_button: "Promover Trabalho de Choque"
+ cre_five_year_plan_shock_work_button_desc: "Aqueles trabalhadores mais produtivos, que dão todo seu sangue e suor pela revolução, devem ser mantidos como exemplos para todos."
+ cre_five_year_fudge_quotas_button: "Falsificar Cotas"
+ cre_five_year_fudge_quotas_button_desc: "As demandas do Plano Quinquenal são simplesmente irracionais, mas o comitê central não tolerará nenhum fracasso. Reportar produções maiores do que realmente existem agradará os planejadores e nos permitirá salvar as aparências."
+ false_gdp_report: "Este [concept_journal_entry] considerará nosso [concept_gdp] como 10% maior do que realmente é"
+
+ je_cre_undo_evolutions: "O Fim da História"
+ je_cre_undo_evolutions_reason: "O tempo da [GetLawType('law_council_republic').GetName] terminou, mas as ideias do socialismo criaram raízes duradouras em nossos [Concept('concept_interest_group', '$concept_interest_groups$')]. Se [ROOT.GetCountry.GetName] quiser se livrar permanentemente desta febre, precisaremos restaurar ordem e sanidade em nossa sociedade."
+
+ cre_undo_evolutions_bar: "Anticomunismo"
+ cre_undo_evolutions_bar_desc: "Progresso: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)"
+
+ pb_not_socialist: "A [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetName] #bold não#! tem um [concept_leader] #tooltippable;tooltip:[GetPlayer.GetTooltipTag],socialist_ideologies_list_tt Socialista#!"
+ intelligentsia_not_socialist: "A [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetName] #bold não#! tem um [concept_leader] #tooltippable;tooltip:[GetPlayer.GetTooltipTag],socialist_ideologies_list_tt Socialista#!"
+ armed_forces_not_socialist: "A [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetName] #bold não#! tem um [concept_leader] #tooltippable;tooltip:[GetPlayer.GetTooltipTag],socialist_ideologies_list_tt Socialista#!"

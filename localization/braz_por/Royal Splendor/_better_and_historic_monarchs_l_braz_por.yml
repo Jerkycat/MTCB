@@ -1,0 +1,19 @@
+﻿l_braz_por:
+
+ historic_monarch_death.t:0 "Nosso Monarca Morreu."
+ historic_monarch_death.d:0 "Um véu sombrio caiu sobre [ROOT.GetCountry.GetName] enquanto as notícias se espalham do falecimento de nosso soberano, [SCOPE.sCharacter('dead_character').GetFirstName]. Simultaneamente, todos os olhos se voltam para [SCOPE.sCharacter('dead_character').GetHerHis] herdeiro, [ROOT.GetCountry.GetRuler.GetFirstName], que assumirá o trono."
+ historic_monarch_death.f:0 ""Enquanto [ROOT.GetCountry.GetName] se despede do falecido [SCOPE.sCharacter('dead_character').GetFirstName], recebe uma nova era sob [ROOT.GetCountry.GetRuler.GetFirstName]. [ROOT.GetCountry.GetRuler.GetSheHe] ascende ao trono com um fardo pesado, carregando consigo as esperanças de ontem e os sonhos de amanhã.""
+ 
+ historic_monarch_death_reaction:0 "Viva o [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]!"
+
+ historic_heir_death.t:0 "O Herdeiro está Morto."
+ historic_heir_death.d:0 "A tragédia atinge enquanto o herdeiro, [SCOPE.sCharacter('dead_character').GetFirstName] faleceu. Um ar de incerteza paira sobre a nação."
+ historic_heir_death.f:0 ""A nação lamenta o falecimento de [SCOPE.sCharacter('dead_character').GetFirstName], herdeiro do trono [ROOT.GetCountry.GetAdjectiveNoFormatting]. As procissões fúnebres estão a caminho e curiosos abrem caminho para ver o antigo futuro "[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]". Alguns se perguntam como as coisas teriam sido se [ROOT.GetCountry.GetRuler.GetSheHe] tivesse se tornado o monarca. Bom ou ruim, prosperidade ou pobreza, não importa mais, pois estão mortos.""
+
+ historic_heir_death_reaction:0 "Uma tragédia lamentável."
+
+ historic_monarch_birth.t:0 "O Nascimento de Um Herdeiro"
+ historic_monarch_birth.d:0 "Nosso [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] anunciou com alegria o nascimento de um herdeiro. O nascimento garantiu a linha de sucessão."
+ historic_monarch_birth.f:0 ""O Palácio Real fervilha de atividade. Médicos, enfermeiros e parteiras correm por toda parte. No quarto, Sua Alteza Real passa pelo 'procedimento', uma contração de cada vez. Ao final de tudo, um suspiro de alívio. Deus salve o [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle].""
+
+ historic_monarch_birth_reaction:0 "Uma ocasião memorável."

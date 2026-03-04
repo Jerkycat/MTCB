@@ -1,0 +1,21 @@
+﻿l_braz_por:
+#Rural Folk
+ ideology_pastoralist: "Pastoralista"
+ ideology_pastoralist_desc: "#lore Este grupo se opõe a perturbações na economia pastoril tradicional.#!"
+ ideology_tribal: "Tribal"
+ ideology_tribal_desc: "#lore Este grupo abraça um modo de vida tradicional e se opõe a reformas que enfraqueceriam clãs locais.#!"
+#Landowners
+ ideology_patrician: "Patrício"
+ ideology_patrician_desc: "Este grupo considera famílias de comerciantes aristocráticos como a classe dominante natural da sociedade."
+#Devout
+ ideology_catholic_moralist: "Moralista Católico"
+ ideology_catholic_moralist_desc: "A Igreja Católica se vê como a fundação moral da sociedade, conforme estabelecido pelos ditames do Papa."
+#Leaders
+ vtm_ideology_modernizer: "Centralizador"
+ vtm_ideology_modernizer_desc: "Este personagem defende um curso seguro mas firme de centralização e reforma para combater a decadência."
+ ite_ideology_absolutist: "Absolutista"
+ ite_ideology_absolutist_desc: "Este personagem acredita no governo absoluto de uma monarquia legitimamente ordenada, sem obrigações a qualquer conselho ou legislatura."
+ ite_ideology_oligarchic_leader: "Oligárquico"
+ ite_ideology_oligarchic_leader_desc: "Este personagem busca entrincheirar o poder da classe dominante contra intervenções tanto autocráticas quanto democráticas."
+ ite_ideology_aristocratic_leader: "Aristocrático"
+ ite_ideology_aristocratic_leader_desc: "As simpatias deste personagem estão com a elite territorial tradicional. Eles se opõem a esforços de modernização que minariam a base de poder da nobreza."

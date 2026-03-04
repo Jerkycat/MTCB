@@ -1,0 +1,154 @@
+﻿l_braz_por:
+    # Battle Conditions
+    FAE_battle_condition_attacker_fort_breached: "Forte Rompido"
+    FAE_battle_condition_defender_fort_breached: "$FAE_battle_condition_attacker_fort_breached$"
+    
+    FAE_battle_condition_attacker_fort_breached_desc: "Este comandante rompeu com sucesso algumas das fortificações inimigas."
+    FAE_battle_condition_defender_fort_breached_desc: "O inimigo rompeu com sucesso algumas das fortificações deste comandante."
+    
+    # Buildings
+    fae_building_forts: "Fortificações"
+    
+    # Character Traits
+    FAE_trait_combat_engineer_1: "Engenheiro de Combate"
+    FAE_trait_combat_engineer_2: "Engenheiro de Combate Experiente"
+    FAE_trait_combat_engineer_3: "Engenheiro de Combate Especialista"
+    
+    FAE_trait_combat_engineer_1_desc: "Este comandante possui conhecimento no uso eficaz de engenheiros de combate."
+    FAE_trait_combat_engineer_2_desc: "Este comandante possui uma compreensão especializada do uso de engenheiros de combate na guerra."
+    FAE_trait_combat_engineer_3_desc: "Este comandante verdadeiramente dominou a arte da guerra moderna no que diz respeito aos engenheiros de combate."
+    
+    # Modifiers I (types)
+    state_fae_building_forts_max_level_add:      "Nível Máximo do $fae_building_forts$"
+    state_fae_building_forts_max_level_add_desc: "Bônus ou penalidade ao nível máximo da construção $fae_building_forts$"
+    
+    building_input_small_arms_mult: "@small_arms! $small_arms$ $concept_input_mult$"
+    building_input_artillery_mult:  "@artillery! $artillery$ $concept_input_mult$"
+    building_input_ammunition_mult: "@ammunition! $ammunition$ $concept_input_mult$"
+    
+    building_input_small_arms_mult_desc: "$concept_input_mult_desc$"
+    building_input_artillery_mult_desc:  "$concept_input_mult_desc$"
+    building_input_ammunition_mult_desc: "$concept_input_mult_desc$"
+    
+    character_fae_battle_condition_attacker_fort_breached_mult:      "[GetBattleCondition('FAE_battle_condition_attacker_fort_breached').GetName]$modifier_character_battle_condition_suffix$"
+    character_fae_battle_condition_attacker_fort_breached_mult_desc: "$modifier_character_battle_condition_desc_prefix$[GetBattleCondition('FAE_battle_condition_attacker_fort_breached').GetName]$modifier_character_battle_condition_desc_suffix$"
+    
+    unit_fae_siege_add:      "[concept_FAE_siege]"
+    unit_fae_siege_add_desc: "O [concept_FAE_siege] total adicionado para cada [concept_unit] participando de uma [concept_battle]"
+    
+    unit_fae_entrenchment_add:      "[concept_FAE_entrenchment]"
+    unit_fae_entrenchment_add_desc: "O [concept_FAE_entrenchment] total adicionado para cada [concept_unit] participando de uma [concept_battle]"
+    
+    character_fae_total_siege:      "$concept_FAE_siege$ Total"
+    character_fae_total_siege_desc: "O [concept_FAE_siege] total gerado pelas [Concept('concept_unit','$concept_units$')] sob o comando deste [concept_general] na [concept_battle] atual"
+    
+    character_fae_total_entrenchment:      "$concept_FAE_entrenchment$ Total"
+    character_fae_total_entrenchment_desc: "O [concept_FAE_entrenchment] total gerado pelas [Concept('concept_unit','$concept_units$')] sob o comando deste [concept_general] na [concept_battle] atual"
+    
+    country_fae_combat_engie_siege_add:      "[concept_FAE_siege] de [GetMobilizationOption('FAE_mo_combat_engineers').GetName]"
+    country_fae_combat_engie_siege_add_desc: "[concept_FAE_siege] adicional por [Concept('concept_unit', 'unidade')] gerado pela [concept_mobilization_option] [GetMobilizationOption('FAE_mo_combat_engineers').GetName]"
+
+    # Modifiers II (modifiers)
+    FAE_md_fort_reconstruction: "Construção de Fortes"
+    FAE_md_fort_rearmament:     "Armamento de Fortes"
+    FAE_md_fort_recommission:   "Recentemente Comissionado"
+    
+    FAE_md_fort_in_battle: "Engajado em Combate"
+    
+    FAE_md_fort_defense_strong:   "Fortificações Fortes"
+    FAE_md_fort_defense_mid:      "Fortificações Parcialmente Enfraquecidas"
+    FAE_md_fort_defense_weak:     "Fortificações Enfraquecidas"
+    FAE_md_fort_occupation_speed: "Impedido por Fortificações Inimigas"
+    
+    FAE_md_fort_kill_rate_strong:      "$FAE_md_fort_defense_strong$"
+    FAE_md_fort_kill_rate_mid:         "$FAE_md_fort_defense_mid$"
+    FAE_md_fort_kill_rate_weak:        "$FAE_md_fort_defense_weak$"
+    FAE_md_fort_provinces_lost_strong: "$FAE_md_fort_defense_strong$"
+    FAE_md_fort_provinces_lost_weak:   "$FAE_md_fort_defense_weak$"
+    
+    FAE_md_fort_max_level: "$state_fae_building_forts_max_level_add$"
+    
+    FAE_md_total_siege:        "$character_fae_total_siege$"
+    FAE_md_total_entrenchment: "$character_fae_total_entrenchment$"
+    
+    # Production Method Groups
+    FAE_pmg_fort_design:         "Design do Forte"
+    FAE_pmg_fort_construction:   "Material de Construção"
+    FAE_pmg_fort_heavy_armament: "Armamento Pesado"
+    FAE_pmg_fort_small_armament: "Armamento Leve"
+    FAE_pmg_fort_maintenance:    "Status Operacional"
+    
+    # Production Methods
+    FAE_pm_bastion_forts:   "Fortes de Bastião"
+    FAE_pm_polygonal_forts: "Fortes Poligonais"
+    FAE_pm_bunkers:         "Bunkers e Casamatas"
+    
+    FAE_pm_wood_palisades: "Paliçadas de Madeira"
+    FAE_pm_stone_iron:     "Pedra e Ferro"
+    FAE_pm_steel_concrete: "Aço e Concreto"
+    
+    FAE_pm_parapets:  "Canhões de Parapeito"
+    FAE_pm_casemates: "Casamatas de Artilharia"
+    FAE_pm_turrets:   "Torretas de Canhão"
+    
+    FAE_pm_small_arms:        "$small_arms$"
+    FAE_pm_gatling_guns:      "$handcranked_machine_gun$"
+    FAE_pm_auto_machine_guns: "$automatic_machine_guns$"
+    
+    FAE_pm_normal:     "Operações Normais"
+    FAE_pm_mothballed: "Desativado"
+    
+    FAE_pm_fort_design_mothballed:       "$FAE_pm_mothballed$"
+    FAE_pm_fort_construction_mothballed: "$FAE_pm_mothballed$"
+    FAE_pm_fort_heavy_arms_mothballed:   "$FAE_pm_mothballed$"
+    FAE_pm_small_arms_mothballed:        "$FAE_pm_mothballed$"
+    
+    # Mobilization Options
+    FAE_mo_combat_engineers:      "Engenheiros de Combate"
+    FAE_mo_combat_engineers_desc: "Engenheiros especialmente treinados no campo de batalha nos ajudarão a adaptar o terreno às nossas necessidades e superar as defesas inimigas."
+    
+    # Game Rules
+    rule_FAE_gr_ai_siege_mult: "#yellow FAE#! | Multiplicador de [concept_FAE_siege] da IA"
+    
+    FAE_txt_ai_weak_warning:   "#red Países IA podem ter dificuldades para atacar estados com $fae_building_forts$.#!"
+    FAE_txt_ai_strong_warning: "#red $fae_building_forts$ podem ter dificuldade em fornecer assistência útil contra ofensivas da IA.#!"
+    
+    setting_FAE_grs_ai_siege_nil:      "Nenhum"
+    setting_FAE_grs_ai_siege_nil_desc: "Países IA não recebem bônus ao seu [concept_FAE_siege]. $FAE_txt_ai_weak_warning$"
+    setting_FAE_grs_ai_siege_low:      "[GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_low')|=0%]"
+    setting_FAE_grs_ai_siege_low_desc: "Países IA ganharão [GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_low')|v=0%] de [concept_FAE_siege] extra em cada batalha."
+    setting_FAE_grs_ai_siege_med:      "[GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_med')|=0%]"
+    setting_FAE_grs_ai_siege_med_desc: "Países IA ganharão [GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_med')|v=0%] de [concept_FAE_siege] extra em cada batalha."
+    setting_FAE_grs_ai_siege_hi:       "[GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_hi')|=0%]"
+    setting_FAE_grs_ai_siege_hi_desc:  "Países IA ganharão [GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_hi')|v=0%] de [concept_FAE_siege] extra em cada batalha."
+    setting_FAE_grs_ai_siege_vhi:      "[GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_vhi')|=0%]"
+    setting_FAE_grs_ai_siege_vhi_desc: "Países IA ganharão [GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_vhi')|v=0%] de [concept_FAE_siege] extra em cada batalha. $FAE_txt_ai_strong_warning$"
+    setting_FAE_grs_ai_siege_ext:      "[GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_ext')|=0%]"
+    setting_FAE_grs_ai_siege_ext_desc: "Países IA ganharão [GetPlayer.MakeScope.ScriptValue('FAE_ai_mult_ext')|v=0%] de [concept_FAE_siege] extra em cada batalha. $FAE_txt_ai_strong_warning$"
+    
+    # Concepts
+    concept_FAE_siege:        "Capacidade de Cerco"
+    concept_FAE_entrenchment: "Entrincheiramento de Fortes"
+    FAE_txt_added_by_FAE:     "#italic Este é um recurso do mod #blue Fortes & Engenheiros#!.#!"
+    
+    FAE_txt_siege:    "[concept_FAE_siege]"
+    FAE_txt_entrench: "[concept_FAE_entrenchment]"
+    FAE_txt_forts:    "[GetBuildingType('fae_building_forts').GetName]"
+    
+    FAE_txt_battles: "No início de cada [concept_battle] ocorrendo em um [concept_state] com uma [concept_building] $FAE_txt_forts$, o $FAE_txt_siege$ e $FAE_txt_entrench$ totais são calculados a partir do número de [Concept('concept_unit', '$concept_units$')] na batalha nos lados atacante e defensor, respectivamente."
+    
+    FAE_txt_siege_stats:   "$FAE_txt_siege_stats_h$\n#indent_newline:6 $FAE_txt_siege_stats_1$#!\n#indent_newline:6 $FAE_txt_siege_stats_2$#!\n#indent_newline:6 $FAE_txt_siege_stats_3$#!\n#indent_newline:6 $FAE_txt_siege_stats_4$#!\n#indent_newline:6 $FAE_txt_siege_stats_5$#!\n#indent_newline:6 $FAE_txt_siege_stats_6$#!\n#indent_newline:6 $FAE_txt_siege_stats_7$#!"
+    FAE_txt_siege_stats_h: "O $FAE_txt_siege$ por [Concept('concept_unit', 'unidade')] é calculado a partir de:"
+    FAE_txt_siege_stats_1: "#p +[GetPlayer.MakeScope.ScriptValue('FAE_siege_combat_engies')]#! se sua [concept_military_formation] tiver a [concept_mobilization_option] [GetMobilizationOption('FAE_mo_combat_engineers').GetName] ativa (Aumenta para #p +[Add_CFixedPoint(GetPlayer.MakeScope.ScriptValue('FAE_siege_combat_engies'),GetPlayer.MakeScope.ScriptValue('FAE_siege_combat_engies_tnt'))]#! após pesquisar [GetTechnology('dynamite').GetName])"
+    FAE_txt_siege_stats_2: "#p +[GetPlayer.MakeScope.ScriptValue('FAE_siege_heavy_tank')]#! se for uma [Concept('concept_combat_unit_type', 'Unidade')] de [GetCombatUnitType('combat_unit_type_heavy_tank').GetName]"
+    FAE_txt_siege_stats_3: "#p +[GetPlayer.MakeScope.ScriptValue('FAE_siege_light_tank')]#! se for uma [Concept('concept_combat_unit_type', 'Unidade')] de [GetCombatUnitType('combat_unit_type_light_tanks').GetName]"
+    FAE_txt_siege_stats_4: "#p +[GetPlayer.MakeScope.ScriptValue('FAE_siege_siege_arty')]#! se for uma [Concept('concept_combat_unit_type', 'Unidade')] de [GetCombatUnitType('combat_unit_type_siege_artillery').GetName]"
+    FAE_txt_siege_stats_5: "#p +[GetPlayer.MakeScope.ScriptValue('FAE_siege_shrapnel_arty')]#! se for uma [Concept('concept_combat_unit_type', 'Unidade')] de [GetCombatUnitType('combat_unit_type_shrapnel_artillery').GetName]"
+    FAE_txt_siege_stats_6: "#p +[GetPlayer.MakeScope.ScriptValue('FAE_siege_mobile_arty')]#! se for uma [Concept('concept_combat_unit_type', 'Unidade')] de [GetCombatUnitType('combat_unit_type_mobile_artillery').GetName]"
+    FAE_txt_siege_stats_7: "#p +[GetPlayer.MakeScope.ScriptValue('FAE_siege_cannon_arty')]#! se for uma [Concept('concept_combat_unit_type', 'Unidade')] de [GetCombatUnitType('combat_unit_type_cannon_artillery').GetName]"
+    
+    FAE_txt_min_fort_bonus: "#p [Multiply_CFixedPoint( GetPlayer.MakeScope.ScriptValue('FAE_WEAK_FORT_MIN_BONUS'), '(CFixedPoint)100' )]%#!"
+    
+    concept_FAE_siege_desc: "$FAE_txt_siege$ contraria diretamente [concept_FAE_entrenchment].\n\n$FAE_txt_battles$\n\n$FAE_txt_siege$ age como uma redução direta de $FAE_txt_entrench$ em uma base de 1-para-1, e quanto mais $FAE_txt_entrench$ for reduzido, menores serão os bônus do defensor para [concept_defense] & [concept_kill_rate] e o malus do atacante para [Concept('concept_occupation', '$concept_battle$ $concept_occupation$')].\n\n$FAE_txt_siege_stats$\n\n$FAE_txt_added_by_FAE$"
+    
+    concept_FAE_entrenchment_desc: "$FAE_txt_entrench$ mede a eficácia de $FAE_txt_forts$ sendo utilizados por [Concept('concept_unit', 'Unidades')] defensoras.\n\n$FAE_txt_battles$\n\n$FAE_txt_entrench$ total para uma [concept_battle] é determinado tomando a produção total de $FAE_txt_entrench$ da [concept_building] $FAE_txt_forts$ envolvida na [concept_battle] e multiplicando pelo número total de [Concept('concept_unit', 'Unidades')] defensoras participando da [concept_battle]. Após calcular ambos os valores, o $FAE_txt_siege$ do atacante é subtraído do $FAE_txt_entrench$ do defensor. Este valor é dividido pelo valor original de $FAE_txt_entrench$ para determinar uma fração representando a #v eficácia#! de $FAE_txt_forts$ nesta [concept_battle]. Portanto, conforme $FAE_txt_siege$ aumenta, $FAE_txt_forts$ se tornam menos eficazes.\n\nEficácia reduzida de $FAE_txt_forts$ reduzirá os bônus do defensor para [concept_defense] & [concept_kill_rate] e o malus do atacante para [Concept('concept_occupation', '$concept_battle$ $concept_occupation$')] por uma certa porcentagem baseada na fração calculada acima. Independentemente de quão baixa esta fração seja, $FAE_txt_forts$ têm garantia de serem pelo menos $FAE_txt_min_fort_bonus$ eficazes.\n\n$FAE_txt_added_by_FAE$"
