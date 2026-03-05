@@ -1,0 +1,6 @@
+﻿l_braz_por:
+
+ je_communist_welfare: "Construção Socialista"
+ je_communist_welfare_reason: "É nossa tarefa histórica estabelecer as fundações para uma sociedade comunista em [ROOT.GetCountry.GetName]. A transformação socialista da sociedade deve começar cuidando da educação e bem-estar do povo."
+ je_5_year_plan: "Os Planos Quinquenais"
+ je_5_year_plan_reason: "A fundação de nossa revolução é uma transformação das relações de produção. Devemos implementar um [GetLawGroup('lawgroup_economic_system').GetName] socialista e provar seus méritos através de rápido crescimento econômico."

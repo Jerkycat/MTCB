@@ -1,0 +1,28 @@
+﻿l_braz_por:
+
+ notification_victoria_notification_tooltip:0 "#header $notification_victoria_notification_name$#!\n$TOOLTIP_DELIMITER$\n$notification_victoria_notification_desc$"
+ notification_victoria_notification_name:0 "#b HANÔVER SE SEPARA DA GRÃ-BRETANHA #!"
+ notification_victoria_notification_desc:0 "Com a morte do Rei Guilherme IV, leis sucessórias divergentes encerraram a [concept_personal_union] entre [SCOPE.sCountry('britain_victoria_country_scope').GetName] e [SCOPE.sCountry('hannover_victoria_scope').GetName]."
+
+ notification_opium_wars_british_response_angry_name:0 "#b ÓPIO PROIBIDO — REMESSAS DESTRUÍDAS #!"
+ notification_opium_wars_british_response_angry_desc:0 "[SCOPE.sCountry('opium_wars_aggressor_country').GetName] respondeu com indignação à proibição [SCOPE.sCountry('opium_wars_target_country').GetAdjectiveNoFormatting] do ópio, emitindo múltiplas ameaças contra o governo de [SCOPE.sCountry('opium_wars_target_country').GetName]."
+
+ notification_opium_wars_british_response_passive_name:0 "#b ÓPIO PROIBIDO — REMESSAS DESTRUÍDAS #!"
+ notification_opium_wars_british_response_passive_desc:0 "[SCOPE.sCountry('opium_wars_aggressor_country').GetName] parece estar ignorando a proibição [SCOPE.sCountry('opium_wars_target_country').GetAdjectiveNoFormatting] do ópio."
+ notification_opium_wars_british_response_passive_tooltip:1 "#header $notification_opium_wars_british_response_passive_name$#!\n$TOOLTIP_DELIMITER$\n$notification_opium_wars_british_response_passive_desc$"
+
+ notification_santa_anna_captured_notification_name:0 "#b SANTA ANNA CAPTURADO #!"
+ notification_santa_anna_captured_notification_desc:0 "[SCOPE.sCountry('texas_scope').GetName] capturou o General [SCOPE.sCountry('mexico_scope').GetAdjective] Santa Anna, que utilizou sua influência pessoal para negociar o fim da Guerra de Independência do Texas."
+ notification_santa_anna_captured_notification_tooltip:0 "#header $santa_anna_captured_notification_name$#!\n$TOOLTIP_DELIMITER$\n$santa_anna_captured_notification_desc$"
+
+ notification_brz_isabel_accession_name: "#b DOM PEDRO MORRE #!"
+ notification_brz_isabel_accession_desc: "O Imperador do Brasil, Pedro II, faleceu, com [SCOPE.sCountry('brazil_scope').GetRuler.GetPrimaryRoleTitle] [SCOPE.sCountry('brazil_scope').GetRuler.GetFullName] assumindo o trono em sua sucessão. #lore As ruas ficaram tomadas por brasileiros enlutados enquanto o cortejo fúnebre do falecido imperador conduzia seu corpo para ser velado em cerimônia oficial. Igrejas por todo o país realizaram serviços especiais em louvor a... #! "
+ notification_brz_isabel_accession_tooltip: "#header $notification_brz_isabel_accession_name$#!\n$TOOLTIP_DELIMITER$\n$notification_brz_isabel_accession_desc$"
+
+ notification_pbc_peru_bolivia_collapse_name: "#b PERU-BOLÍVIA SE DIVIDE #!"
+ notification_pbc_peru_bolivia_collapse_desc: "A Confederação Peru-Boliviana colapsou sob pressões internas e externas, com suas antigas nações constituintes revogando seus laços legais. #lore Representantes de potências sul-americanas vizinhas emitiram comentários positivos sobre o retorno da estabilidade à...#!"
+ notification_pbc_peru_bolivia_collapse_tooltip: "#header $notification_pbc_peru_bolivia_collapse_name$#!\n$TOOLTIP_DELIMITER$\n$notification_pbc_peru_bolivia_collapse_desc$"
+
+ notification_pbc_peru_bolivia_success_name: "#b A CONFEDERAÇÃO RESISTE #!"
+ notification_pbc_peru_bolivia_success_desc: "Representantes do Peru e da Bolívia ratificaram uma constituição formal para a união, concretizando finalmente a consolidação de [SCOPE.sCountry('pbc_scope').GetName]. #lore Cabos diplomáticos de potências sul-americanas vizinhas rapidamente se manifestaram, denunciando a confederação como... #!"
+ notification_pbc_peru_bolivia_success_tooltip: "#header $notification_pbc_peru_bolivia_success_name$#!\n$TOOLTIP_DELIMITER$\n$notification_pbc_peru_bolivia_success_desc$"

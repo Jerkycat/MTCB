@@ -1,0 +1,141 @@
+﻿l_braz_por:
+    # MO text
+    GGGG_txt_GGGG_feature: "#italic Este é um recurso do mod #blue Gas, Guns, Garb, and Grub#!.#!"
+    
+    # Mobilization option groups
+    GGGG_mog_guns:     "Armamento de Infantaria"
+    GGGG_mog_rations:  "Rações"
+    GGGG_mog_uniforms: "Uniformes"
+    
+    GGGG_mog_guns_desc:     "O design de armamentos emitidos aos homens no $concept_army$.\n\n$GGGG_txt_GGGG_feature$"
+    GGGG_mog_rations_desc:  "Como os soldados no $concept_army$ são alimentados enquanto mobilizados.\n\n$GGGG_txt_GGGG_feature$"
+    GGGG_mog_uniforms_desc: "O estilo de uniforme emitido a todos os soldados no $concept_army$.\n\n$GGGG_txt_GGGG_feature$"
+    
+    # Supplements MOs
+    GGGG_mo_wine:      "$wine$"
+    GGGG_mo_wine_desc: "Ajuda a relaxar."
+    
+    GGGG_mo_tea:      "$tea$"
+    GGGG_mo_tea_desc: "Ajuda a acalmar."
+    
+    GGGG_mo_coffee:      "$coffee$"
+    GGGG_mo_coffee_desc: "Ajuda a permanecer alerta."
+    
+    # Gun MOs
+    # As descrições para as MOs que têm multiplicadores de entrada têm uma quebra de linha dupla afixada na frente para resolver
+    # problema estranho do vanilla onde a separação automática da lista de modificadores e do texto de descrição não acontece com os
+    # tipos de modificadores multiplicadores.
+    GGGG_mo_melee_weapons:   "Armas Primitivas"
+    GGGG_mo_firearms:        "Armas de Fogo"
+    GGGG_mo_percussion_caps: "$percussion_caps$"
+    GGGG_mo_rifling:         "$rifling$"
+    GGGG_mo_breechblocks:    "Culatras"
+    GGGG_mo_bolt_actions:    "Ações de Ferrolho"
+    
+    GGGG_mo_melee_weapons_desc:   "Armas simples ou primitivas, proporcionando às nossas tropas o mínimo em capacidades de combate.\n\n#bold $GGGG_mo_melee_weapons$#! #n não pode#! ser removido, mas seus efeitos negativos podem ser cancelados com [GetMobilizationOption('GGGG_mo_firearms').GetName].\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_firearms_desc:        "O esteio do arsenal de qualquer exército moderno. Inicialmente primitivas, elas podem ser aprimoradas para se tornarem mais sofisticadas e mortais ao longo do tempo.\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_percussion_caps_desc: "Nossas armas e munições serão aprimoradas para usar cápsulas de percussão, tornando nossas armas mais confiáveis em condições adversas.\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_rifling_desc:         "\n\nRanhuras gravadas em nossos canos de armas que imprimem uma rotação no projétil tornarão nossas armas mais precisas e letais a distâncias maiores.\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_breechblocks_desc:    "\n\nCulatras confiáveis permitirão a operação segura e mais rápida de armas que são carregadas na parte traseira em vez da frente do cano.\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_bolt_actions_desc:    "\n\nAções de armas de fogo bem projetadas permitem que um soldado extraia uma rodada disparada e carregue uma nova em um único movimento rápido por meio de uma alavanca de ferrolho.\n\n$GGGG_txt_GGGG_feature$"
+    
+    # Rations MOs
+    GGGG_mo_foraged_rations:      "Forrageamento Local"
+    GGGG_mo_bread_meat_rations:   "Rações Simples"
+    GGGG_mo_canned_rations:       "Produtos Enlatados"
+    GGGG_mo_refrigerated_rations: "Refrigeração"
+    
+    GGGG_mo_foraged_rations_desc:      "Em tempos de emergência, podemos forçar as tropas a forragear a terra por suprimentos, mas será custoso para a região local e a eficácia do $concept_army$.\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_bread_meat_rations_desc:   "Nossos soldados receberão rações básicas de biscoito duro e carne salgada.\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_canned_rations_desc:       "Substituiremos as rações básicas por alimentos enlatados, aproveitando a produção industrial para alimentar as tropas no exterior.\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_refrigerated_rations_desc: "Novas tecnologias de armazenamento de alimentos nos permitem manter produtos frescos sem estragar por durações mais longas e transportá-los mais longe. Podemos aproveitar isso para melhorar vastamente a qualidade das refeições para nossos soldados.\n\n$GGGG_txt_GGGG_feature$"
+    
+    # Uniforms MOs
+    GGGG_mo_traditional_uniforms: "Traje Tradicional"
+    GGGG_mo_full_dress:           "Traje Padrão"
+    GGGG_mo_modern_uniform:       "Capacetes e Camuflagem"
+    
+    GGGG_mo_traditional_uniforms_desc: "Soldados receberão uniformes simples, uniformes de designs mais tradicionais, ou são obrigados a providenciar os seus próprios.\n\n#bold $GGGG_mo_traditional_uniforms$#! #n não pode#! ser removido, mas seus efeitos negativos podem ser balanceados ou cancelados com [GetMobilizationOption('GGGG_mo_full_dress').GetName] e [GetMobilizationOption('GGGG_mo_modern_uniform').GetName].\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_full_dress_desc:           "Uniformes padronizados tornam nosso exército mais prestigioso e servem para ajudar as tropas a identificar seus aliados e agir como uma unidade coesa de forma mais eficaz.\n\n$GGGG_txt_GGGG_feature$"
+    
+    GGGG_mo_modern_uniform_desc:       "Capacetes de aço combinados com uniformes que se misturam melhor ao ambiente ajudam a reduzir baixas em batalha.\n\n$GGGG_txt_GGGG_feature$"
+    
+    # Input good modifier types
+    goods_input_grain_mult:          "$goods_input_grain_add$"
+    goods_input_grain_mult_desc:     "$goods_input_grain_add_desc$"
+    goods_input_meat_mult:           "$goods_input_meat_add$"
+    goods_input_meat_mult_desc:      "$goods_input_meat_add_desc$"
+    goods_input_groceries_mult:      "$goods_input_groceries_add$"
+    goods_input_groceries_mult_desc: "$goods_input_groceries_add_desc$"
+    goods_input_fruit_mult:          "$goods_input_fruit_add$"
+    goods_input_fruit_mult_desc:     "$goods_input_fruit_add_desc$"
+    
+    goods_input_tea_add:         "Insumo de @tea! $tea$"
+    goods_input_tea_add_desc:    "A quantidade de @tea! $tea$ utilizado por construções"
+    goods_input_coffee_add:      "Insumo de @coffee! $coffee$"
+    goods_input_coffee_add_desc: "A quantidade de @coffee! $coffee$ utilizado por construções"
+    
+    # Modifiers
+    GGGG_food_throughput_modifier:    "Rações Militares Enlatadas"
+    GGGG_fresh_rations_modifier:      "Cozinhas de Campo Abastecidas com Frescos"
+    GGGG_produce_throughput_modifier: "Produtos Frescos Incentivados"
+    GGGG_dress_modifier:              "Novo Traje Militar"
+    GGGG_parade_modifier:             "Desfile Patriótico"
+    GGGG_helmets_throughput_modifier: "Adoção de Uniforme Moderno"
+    
+    # Journal entries
+    GGGG_je_canned_goods:                "Rações Militares Enlatadas"
+    GGGG_je_canned_goods_reason:         "Com a invenção do enlatamento como método para preservar alimentos, planejadores militares estão procurando mudar para produtos enlatados para adicionar variedade às suas rações enquanto simplificam a logística alimentar."
+    GGGG_je_refrigerated_produce:        "Rações Militares Refrigeradas"
+    GGGG_je_refrigerated_produce_reason: "Com a invenção da refrigeração como meio de preservar alimentos, líderes de logística militar estão esperando aproveitar a invenção para manter as rações mais frescas e variadas do que antes."
+    GGGG_je_full_dress:                  "Traje Militar Colorido"
+    GGGG_je_full_dress_reason:           "Como resultado de nossas novas armas de fogo e doutrina militar, líderes militares estão pressionando para adotar uniformes coloridos e altamente visíveis para garantir coesão no campo de batalha."
+    GGGG_je_helmets_drab:                "Uniformes de Combate Camuflados"
+    GGGG_je_helmets_drab_reason:         "Análises de batalha concluem que o traje colorido do passado agora se tornou obsoleto e está ativamente ferindo e matando nossos soldados. Líderes militares agora estão pressionando para adotar uniformes mais pragmáticos."
+    
+    # Tooltips
+    GGGG_tt_canned_goods_je: "Uso combinado atual de [GetMobilizationOption('GGGG_mo_canned_rations').GetName] em todos os [Concept('concept_battalion', '$concept_battalions$')] é de pelo menos #v [Multiply_CFixedPoint( SCOPE.ScriptValue('GGGG_CANNED_GOODS_ADOPTION_THRESHOLD') , '(CFixedPoint)100' )]%#!. #EMP (Atualmente #v [Multiply_CFixedPoint( SCOPE.sCountry('target_country').MakeScope.ScriptValue('GGGG_sv_mo_usage_canned_rations'), '(CFixedPoint)100' )|0]%#!)#!"
+    GGGG_tt_refrigerated_je: "Uso combinado atual de [GetMobilizationOption('GGGG_mo_refrigerated_rations').GetName] em todos os [Concept('concept_battalion', '$concept_battalions$')] é de pelo menos #v [Multiply_CFixedPoint( SCOPE.ScriptValue('GGGG_REFRIGERATED_ADOPTION_THRESHOLD') , '(CFixedPoint)100' )]%#!. #EMP (Atualmente #v [Multiply_CFixedPoint( SCOPE.sCountry('target_country').MakeScope.ScriptValue('GGGG_sv_mo_usage_refrigerated_rations'), '(CFixedPoint)100' )|0]%#!)#!"
+    GGGG_tt_full_dress_je:   "Uso combinado atual de [GetMobilizationOption('GGGG_mo_full_dress').GetName] em todos os [Concept('concept_battalion', '$concept_battalions$')] é de pelo menos #v [Multiply_CFixedPoint( SCOPE.ScriptValue('GGGG_FULL_DRESS_ADOPTION_THRESHOLD') , '(CFixedPoint)100' )]%#!. #EMP (Atualmente #v [Multiply_CFixedPoint( SCOPE.sCountry('target_country').MakeScope.ScriptValue('GGGG_sv_mo_usage_full_dress'), '(CFixedPoint)100' )|0]%#!)#!"
+    GGGG_tt_helmets_drab_je: "Uso combinado atual de [GetMobilizationOption('GGGG_mo_modern_uniform').GetName] em todos os [Concept('concept_battalion', '$concept_battalions$')] é de pelo menos #v [Multiply_CFixedPoint( SCOPE.ScriptValue('GGGG_HELMETS_ADOPTION_THRESHOLD') , '(CFixedPoint)100' )]%#!. #EMP (Atualmente #v [Multiply_CFixedPoint( SCOPE.sCountry('target_country').MakeScope.ScriptValue('GGGG_sv_mo_usage_helmets_drab'), '(CFixedPoint)100' )|0]%#!)#!"
+    
+    GGGG_tt_no_can_opener_ev: "O evento #v $technology_events.50.t$#! não disparará para [SCOPE.sCountry('target_country').GetName]."
+    
+    # Events
+    GGGG_ev_rations_1_title:  "Um Sucesso Enlatado!"
+    GGGG_ev_rations_1_desc:   "A adoção de produtos enlatados para alimentar nossos soldados melhorou significativamente a vida útil, variedade e qualidade de nossa nutrição militar."
+    GGGG_ev_rations_1_flavor: ""Pode não ser a comida caseira da minha esposa, mas é melhor do que os biscoitos secos e vegetais estragados. Mantém o gato fora das carnes, também.""
+    GGGG_ev_rations_1_a:      "Um exército marcha sobre seu estômago."
+    GGGG_ev_rations_1_b:      "Desenvolver um abridor de latas padronizado seria prudente."
+    GGGG_ev_rations_1_c:      "Talvez possamos trazer a comida caseira para a frente de alguma forma?"
+    
+    GGGG_ev_rations_2_title:  "Fresco da Fazenda na Frente"
+    GGGG_ev_rations_2_desc:   "Tecnologias modernas de produção e manuseio de alimentos permitiram que nossos soldados comessem produtos e bens frescos, mesmo longe de casa."
+    GGGG_ev_rations_2_flavor: ""Mesmo da fazenda à cozinha de campo, as refeições que temos têm gosto fresco, como se tudo fosse de origem local. Senhor, é verdadeiramente nada menos que revolucionário que os homens possam comer assim mesmo através de continentes e oceanos!""
+    GGGG_ev_rations_2_a:      "Refeições, prontas para comer!"
+    GGGG_ev_rations_2_b:      "Todos merecem ter comida fresca em todos os lugares!"
+    GGGG_ev_rations_2_c:      "$GGGG_ev_rations_1_b$"
+    
+    GGGG_ev_uniforms_1_title:  "Moda Militar Ditando Tendências"
+    GGGG_ev_uniforms_1_desc:   "Parece que nossa adoção de trajes regimentais coloridos conquistou o amor dos orientados à moda e do homem comum."
+    GGGG_ev_uniforms_1_flavor: ""Independentemente de classe ou origem, o exército deve fazer de você um indivíduo distinto de interesse!""
+    GGGG_ev_uniforms_1_a:      "Organize um desfile para mostrar aos patriotas a glória que os aguarda!"
+    GGGG_ev_uniforms_1_b:      "Esses uniformes serão os modelos principais do mundo!"
+    GGGG_ev_uniforms_1_c:      "Não podemos dar a eles algo mais pragmático e razoável?"
+    
+    GGGG_ev_uniforms_2_title:  "O Uniforme de Combate Moderno"
+    GGGG_ev_uniforms_2_desc:   "Estudos de campo estão mostrando que, embora menos prestigiosos, os novos uniformes simples e capacetes de aço são eficazes em reduzir baixas."
+    GGGG_ev_uniforms_2_flavor: ""Fui atingido na testa e derrubado voando no chão da trincheira... uma bala de estilhaço atingiu meu capacete com grande violência, sem perfurá-lo, mas com força suficiente para amassá-lo. Se eu tivesse, como havia sido habitual até alguns dias antes, estado usando um boné, então o Regimento teria tido mais um homem morto.""
+    GGGG_ev_uniforms_2_a:      "Devemos focar em obter mais deste equipamento que salva vidas."
+    GGGG_ev_uniforms_2_b:      "Equipamento moderno é inútil se não tivermos logística igualmente moderna."
+    GGGG_ev_uniforms_2_c:      "Se uma polegada de aço pode salvar um homem, metros poderiam salvar a nação?"
+    GGGG_ev_uniforms_2_d:      "Se uma polegada de aço pode parar uma bala, imagine o potencial para uma fera de maquinaria revestida nele!"

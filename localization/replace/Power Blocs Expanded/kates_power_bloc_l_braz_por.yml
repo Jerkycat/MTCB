@@ -1,0 +1,6 @@
+﻿l_braz_por:
+  POWER_BLOC_MANDATE_PROGRESS_FROM_MINOR_POWER_MEMBERS_TOOLTIP: "Número de membros [concept_minor_power]: [PowerBloc.MakeScope.ScriptValue('power_bloc_minor_power_non_leader_members')]"
+  POWER_BLOC_MANDATE_PROGRESS_FROM_UNRECOGNIZED_REGIONAL_POWER_MEMBERS_TOOLTIP: "Número de membros [Concept('concept_unrecognized_power','$concept_unrecognized_regional_power$')]: [PowerBloc.MakeScope.ScriptValue('power_bloc_unrecognized_regional_power_non_leader_members')]"
+  POWER_BLOC_MANDATE_PROGRESS_FROM_UNRECOGNIZED_MAJOR_POWER_MEMBERS_TOOLTIP: "Número de membros [Concept('concept_unrecognized_power','$concept_unrecognized_major_power$')]: [PowerBloc.MakeScope.ScriptValue('power_bloc_unrecognized_major_power_non_leader_members')]"
+  POWER_BLOC_MANDATE_PROGRESS_FROM_MAJOR_POWER_MEMBERS_TOOLTIP: "Número de membros [concept_major_power]: [PowerBloc.MakeScope.ScriptValue('power_bloc_major_power_non_leader_members')]"
+  POWER_BLOC_MANDATE_PROGRESS_FROM_GREAT_POWER_MEMBERS_TOOLTIP: "Número de membros [concept_great_power]: [PowerBloc.MakeScope.ScriptValue('power_bloc_great_power_non_leader_members')]"

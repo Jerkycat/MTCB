@@ -13,6 +13,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3675930139
 * Better Regime Change
 * Council Republics Expanded
 * Forts & Engineers
+* Gas, Guns, Garb, and Grub
 * Headlines
 * Interest Group Traits Expansion
 * Power Blocs Expanded
